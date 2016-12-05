@@ -1,27 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "simulator.h"
 
 /* Referenced: 
 	http://www.sanfoundry.com/c-program-implement-hash-tables-chaining-with-singly-linked-lists/ */
 
-
 struct hash * hashTable = NULL;
-
-
-struct node {
-	int pageNumber;
-	unsigned int address;
-	int value;
-	struct node *next;
-};
-
-
-struct hash {
-	struct node *head;
-};
-
-
 int pageSize;
 int windowSize;
 int totalAccess = 0;
@@ -102,22 +87,4 @@ void done() {
 
 	
 
-}
-
-int main(int argc, char const *argv[])
-{
-	// Will call the actual sorting algorithm
-	// Commented for now because no sorting algorithm is specified yet
-	// Rather, hardcoded into the main function
-
-	// void process ();
-	// init (128, 1000);
-	// for (int i = 0; i < 10002; ++i)
-	// {
-	// 	put(1, 1);
-	// 	put(129, 2);
-	// 	if (i%2 == 0) {
-	// 		put (257, 3);
-	// 	}
-	// }
 }

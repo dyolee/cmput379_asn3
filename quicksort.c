@@ -2,7 +2,8 @@
 
 // An iterative implementation of quick sort
 #include <stdio.h>
-#include <simulator.h>
+#include <stdlib.h>
+#include "simulator.h"
  
 // A utility function to swap two elements
 void swap ( unsigned int a1, unsigned int a2 )
@@ -21,8 +22,9 @@ int partition (unsigned int arr, int l, int h)
 {
     int x = get(arr+h);
     int i = l-1;
+    int j;
  
-    for (int j = l; j <= h-1; j++)
+    for (j = l; j <= h-1; j++)
     {
         if (get(arr+j) <= x)
         {
@@ -108,7 +110,7 @@ void process () {
     for (i = arr; i < n; i++) put (i, lrand48 ());
 
     /* Sort the numbers */
-    quickSortIterative(arr, n);
+    quickSortIterative(arr, 0, n-1);
 
     /* Verify correctness of sort */
     printf("Sorted array is \n");
