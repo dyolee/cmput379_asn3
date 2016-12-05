@@ -48,15 +48,18 @@ void init (int psize, int winsize) {
 
 void put (unsigned int address, int value) {
 
-	/* From hashtable.c, void insertToHash */
 	int bucket = 0;
 	totalAccess ++;
-	printf ("%d %d %d \n", windowSize, totalAccess, pageSize);
-	pageCount[0]++;
-	printf("%d %d\n", pageCount[0], pageCount[1]);
-	
-	// bucket = hashFunction(address, value);
 
+	bucket = address%pageSize;
+	pageCount[bucket]++;
+
+	if (totalAccess == windowSize)
+	{
+		/* The number of instructions is equal to the windowSize. Do something */
+	}
+
+	/* From hashtable.c, void insertToHash would go here */
 }
 
 
