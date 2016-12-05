@@ -65,7 +65,7 @@ void put (unsigned int address, int value) {
 	if (totalAccess == windowSize) {
 		for (int i = 0; i < pageSize; ++i) {
 			if (pageCount[i] > 0) {
-				fprintf(csv, "%d:%d,", i, pageCount[i]);
+				fprintf(csv, "Page %d had %d accesses, ", i, pageCount[i]);
 				pageCount[i] = 0;
 				totalAccess = 0;
 			}
@@ -100,9 +100,8 @@ int get (unsigned int address) {
 
 void done() {
 
-	/* Most likely, print statements for working set sizes will go here:
-		from hashtable.c,void display() */
 	
+
 }
 
 int main(int argc, char const *argv[])
@@ -112,38 +111,13 @@ int main(int argc, char const *argv[])
 	// Rather, hardcoded into the main function
 
 	// void process ();
-
-	// For testing purposes
-	int i;
-	init (128, 1000);
-	
-	// For testing put and get functions
-	// put (2, 2);
-	// put (3, 3);
-	// put (4, 4);
-	// i = get (2);
-	// i = get (3);
-	// i = get (4);
-
-	// For testing windowsize functions
-	for (int i = 0; i < 1002; ++i)
-	{
-		put (1, 1);
-		put (129, 2);
-	}
-
-	return 0;
+	// init (128, 1000);
+	// for (int i = 0; i < 10002; ++i)
+	// {
+	// 	put(1, 1);
+	// 	put(129, 2);
+	// 	if (i%2 == 0) {
+	// 		put (257, 3);
+	// 	}
+	// }
 }
-
-/*int hashFunction (unsigned int address, int value) {
-
-	int hashIndex = 0;
-
-	totalAccess ++;
-	// If totalAccess = winsize then do something
-
-	printf ("%d %d %d \n", windowSize, totalAccess, pageSize);
-	pageCount[0]++;
-	printf("%d %d\n", pageCount[0], pageCount[1]);
-	return hashIndex;
-}*/

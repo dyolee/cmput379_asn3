@@ -5,3 +5,4 @@ sim:
 clean:
 	rm -rf hashtable
 	rm -rf sim
+	rm -rf *.csv
