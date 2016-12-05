@@ -1,3 +1,4 @@
+#define _XOPEN_SOURCE
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -70,16 +71,19 @@ void put (unsigned int address, int value) {
 
 int get (unsigned int address) {
 
-	int hashIndex = address%pageSize;
 	struct node *myNode;
+
+	int hashIndex = address % pageSize;
 	myNode = hashTable[hashIndex].head;
+
 	while (myNode != NULL) {
 		if (myNode -> address == address) {
 			return myNode -> value;
 		}
 		myNode = myNode -> next;
 	}
-	return myNode -> value;
+
+	return 0;
 }
 
 

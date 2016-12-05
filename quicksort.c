@@ -1,6 +1,7 @@
 // Reference: http://www.geeksforgeeks.org/iterative-quick-sort/
 
 // An iterative implementation of quick sort
+#define _XOPEN_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include "simulator.h"
@@ -22,9 +23,8 @@ int partition (unsigned int arr, int l, int h)
 {
     int x = get(arr+h);
     int i = l-1;
-    int j;
  
-    for (j = l; j <= h-1; j++)
+    for (int j = l; j <= h-1; j++)
     {
         if (get(arr+j) <= x)
         {
@@ -32,34 +32,83 @@ int partition (unsigned int arr, int l, int h)
             swap(arr+i, arr+j);
         }
     }
-    swap (arr+i+1, arr+h);
+    swap(arr+i+1, arr+h);
     return i+1;
 }
  
 /* A[] --> Array to be sorted, 
    l  --> Starting index, 
    h  --> Ending index */
+// void quickSortIterative (unsigned int arr, int l, int h)
+// {
+//     // Create an auxiliary stack
+//     //int stack[ h - l + 1 ];
+//     unsigned int stack = arr + h-l+1;
+ 
+//     // initialize top of stack
+//     int top = -1;
+ 
+//     // push initial values of l and h to stack
+//     // stack[ ++top ] = l;
+//     put(stack + (++top), l);
+//     // stack[ ++top ] = h;
+//     put(stack + (++top), h);
+ 
+//     // Keep popping from stack while is not empty
+//     while ( top >= 0 )
+//     {
+//         printf("Top: %d\n", top );
+//         // Pop h and l
+//         h = get(stack - (top--));
+//         l = get(stack - (top--));
+ 
+//         // Set pivot element at its correct position
+//         // in sorted array
+//         int p = partition( arr, l, h );
+ 
+//         // If there are elements on left side of pivot,
+//         // then push left side to stack
+//         if ( p-1 > l )
+//         {
+//             // stack[ ++top ] = l;
+//             put(stack + (++top), l);
+//             // stack[ ++top ] = p - 1;
+//             put(stack + (++top), p-1);
+//         }
+ 
+//         // If there are elements on right side of pivot,
+//         // then push right side to stack
+//         if ( p+1 < h )
+//         {
+//             // stack[ ++top ] = p + 1;
+// 			put(stack + (++top), p+1);
+//             // stack[ ++top ] = h;
+//             put(stack + (++top), h);
+//         }
+//     }
+// }
+
+/* A[] --> Array to be sorted, 
+   l  --> Starting index, 
+   h  --> Ending index */
 void quickSortIterative (unsigned int arr, int l, int h)
 {
     // Create an auxiliary stack
-    //int stack[ h - l + 1 ];
-    unsigned int stack = arr + h-l+1;
+    int stack[ h - l + 1 ];
  
     // initialize top of stack
     int top = -1;
  
     // push initial values of l and h to stack
-    // stack[ ++top ] = l;
-    put(stack + (++top), l);
-    // stack[ ++top ] = h;
-    put(stack + (++top), h);
+    stack[ ++top ] = l;
+    stack[ ++top ] = h;
  
     // Keep popping from stack while is not empty
     while ( top >= 0 )
     {
         // Pop h and l
-        h = get(stack - (top--));
-        l = get(stack - (top--));
+        h = stack[ top-- ];
+        l = stack[ top-- ];
  
         // Set pivot element at its correct position
         // in sorted array
@@ -69,20 +118,16 @@ void quickSortIterative (unsigned int arr, int l, int h)
         // then push left side to stack
         if ( p-1 > l )
         {
-            // stack[ ++top ] = l;
-            put(stack + (++top), l);
-            // stack[ ++top ] = p - 1;
-            put(stack + (++top), p-1);
+            stack[ ++top ] = l;
+            stack[ ++top ] = p - 1;
         }
  
         // If there are elements on right side of pivot,
         // then push right side to stack
         if ( p+1 < h )
         {
-            // stack[ ++top ] = p + 1;
-            put(stack + (++top), p+1);
-            // stack[ ++top ] = h;
-            put(stack + (++top), h);
+            stack[ ++top ] = p + 1;
+            stack[ ++top ] = h;
         }
     }
 }
@@ -92,11 +137,12 @@ void printArr( unsigned int arr, int n )
 {
     unsigned int addr;
     for ( addr = arr; addr < arr+n; addr++ )
-    printf( "%d", get(addr) );
+    	printf( "%d, ", get(addr) );
+    printf("\n");
 }
 
 void process () {
-    /* This process function generates a number of integer */
+	/* This process function generates a number of integer */
     /* keys and sorts them using *heapsort*. */
     int n, i;
     unsigned int arr = 0; // starting address of array
@@ -107,7 +153,13 @@ void process () {
     init (128, 1000);
 
     /* Generate the sorting problem */
-    for (i = arr; i < n; i++) put (i, lrand48 ());
+    for (i = arr; i < n; i++) 
+    	put (i, lrand48());
+
+    printf("Unsorted: \n");
+    printArr(arr, n);
+
+
 
     /* Sort the numbers */
     quickSortIterative(arr, 0, n-1);
