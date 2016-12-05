@@ -42,7 +42,7 @@ struct node * createNode (unsigned int address, int value, int pageNumber) {
 void init (int psize, int winsize) {
 	pageSize = psize;
 	windowSize = winsize;
-	int pageArray[128];
+	int pageArray[33554431/psize];
 	pageCount = pageArray;
 	hashTable = (struct hash *) calloc (psize, sizeof(struct hash));
 }
@@ -59,6 +59,7 @@ void put (unsigned int address, int value) {
 	pageNumber = address/pageSize;
 	pageCount[pageNumber] += 1;
 	
+
 	if (totalAccess == windowSize) {
 		for (int i = 0; i < pageSize; ++i) {
 			if (pageCount[i] > 0) {
@@ -67,8 +68,6 @@ void put (unsigned int address, int value) {
 			}
 		}
 	}
-
-	printf ("hashIndex: %d, value: %d, address: %d, pageCount: %d \n", hashIndex, value, address, pageCount[pageNumber]);
 
 	struct node *newnode = createNode(address, value, pageNumber);
 	if (!hashTable[hashIndex].head) {
@@ -82,10 +81,16 @@ void put (unsigned int address, int value) {
 
 int get (unsigned int address) {
 
-	int value = 0;
-	/* From hashtable.c, void searchInHash */
-	return value;
-
+	int hashIndex = address%pageSize;
+	struct node *myNode;
+	myNode = hashTable[hashIndex].head;
+	while (myNode != NULL) {
+		if (myNode -> address == address) {
+			return myNode -> value;
+		}
+		myNode = myNode -> next;
+	}
+	return myNode -> value;
 }
 
 
@@ -104,12 +109,24 @@ int main(int argc, char const *argv[])
 
 	// void process ();
 
+	// For testing purposes
+	int i;
 	init (128, 1000);
 	put (1, 1);
-	put (20, 1);
-	put (128, 1);
-	put (3000, 1);
-
+	put (2, 2);
+	put (3, 3);
+	put (4, 4);
+	put (129, 129);
+	i = get (1);
+	printf("%d\n", i);
+	i = get (2);
+	printf("%d\n", i);
+	i = get (3);
+	printf("%d\n", i);
+	i = get (4);
+	printf("%d\n", i);
+	i = get (129);
+	printf("%d\n", i);
 	return 0;
 }
 
