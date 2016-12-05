@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 // A utility function to swap two elements
-void swap ( int* a, int* b )
+void swap ( unsigned int a, unsigned int b )
 {
     int t = *a;
     *a = *b;
