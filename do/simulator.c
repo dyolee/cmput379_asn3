@@ -26,6 +26,7 @@ int pageSize;
 int windowSize;
 int totalAccess = 0;
 int *pageCount;
+FILE *csv;
 
 
 struct node * createNode (unsigned int address, int value, int pageNumber) {
@@ -45,6 +46,7 @@ void init (int psize, int winsize) {
 	int pageArray[33554431/psize];
 	pageCount = pageArray;
 	hashTable = (struct hash *) calloc (psize, sizeof(struct hash));
+	csv = fopen ("windowsize_output.csv", "w+");
 }
 
 
@@ -63,10 +65,12 @@ void put (unsigned int address, int value) {
 	if (totalAccess == windowSize) {
 		for (int i = 0; i < pageSize; ++i) {
 			if (pageCount[i] > 0) {
-				printf("Page %d: \t Accesses: %d\n", i, pageCount[i]);
+				fprintf(csv, "%d:%d,", i, pageCount[i]);
 				pageCount[i] = 0;
+				totalAccess = 0;
 			}
 		}
+		fprintf(csv, "\n");
 	}
 
 	struct node *newnode = createNode(address, value, pageNumber);
@@ -98,7 +102,7 @@ void done() {
 
 	/* Most likely, print statements for working set sizes will go here:
 		from hashtable.c,void display() */
-
+	
 }
 
 int main(int argc, char const *argv[])
@@ -112,21 +116,22 @@ int main(int argc, char const *argv[])
 	// For testing purposes
 	int i;
 	init (128, 1000);
-	put (1, 1);
-	put (2, 2);
-	put (3, 3);
-	put (4, 4);
-	put (129, 129);
-	i = get (1);
-	printf("%d\n", i);
-	i = get (2);
-	printf("%d\n", i);
-	i = get (3);
-	printf("%d\n", i);
-	i = get (4);
-	printf("%d\n", i);
-	i = get (129);
-	printf("%d\n", i);
+	
+	// For testing put and get functions
+	// put (2, 2);
+	// put (3, 3);
+	// put (4, 4);
+	// i = get (2);
+	// i = get (3);
+	// i = get (4);
+
+	// For testing windowsize functions
+	for (int i = 0; i < 1002; ++i)
+	{
+		put (1, 1);
+		put (129, 2);
+	}
+
 	return 0;
 }
 
