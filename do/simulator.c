@@ -26,6 +26,7 @@ int pageSize;
 int windowSize;
 int totalAccess = 0;
 int *pageCount;
+FILE *csv;
 
 
 struct node * createNode (unsigned int address, int value, int pageNumber) {
@@ -42,9 +43,10 @@ void init (int psize, int winsize) {
 	// init globals
 	pageSize = psize;
 	windowSize = winsize;
-	int pageArray[128];
+	int pageArray[33554431/psize];
 	pageCount = pageArray;
 	hashTable = (struct hash *) calloc (psize, sizeof(struct hash));
+	csv = fopen ("windowsize_output.csv", "w+");
 }
 
 
@@ -59,16 +61,17 @@ void put (unsigned int address, int value) {
 	pageNumber = address/pageSize;
 	pageCount[pageNumber] += 1;
 	
+
 	if (totalAccess == windowSize) {
 		for (int i = 0; i < pageSize; ++i) {
 			if (pageCount[i] > 0) {
-				printf("Page %d: \t Accesses: %d\n", i, pageCount[i]);
+				fprintf(csv, "%d:%d,", i, pageCount[i]);
 				pageCount[i] = 0;
+				totalAccess = 0;
 			}
 		}
+		fprintf(csv, "\n");
 	}
-
-	printf ("hashIndex: %d, value: %d, address: %d, pageCount: %d \n", hashIndex, value, address, pageCount[pageNumber]);
 
 	struct node *newnode = createNode(address, value, pageNumber);
 	if (!hashTable[hashIndex].head) {
@@ -82,10 +85,16 @@ void put (unsigned int address, int value) {
 
 int get (unsigned int address) {
 
-	int value = 0;
-	/* From hashtable.c, void searchInHash */
-	return value;
-
+	int hashIndex = address%pageSize;
+	struct node *myNode;
+	myNode = hashTable[hashIndex].head;
+	while (myNode != NULL) {
+		if (myNode -> address == address) {
+			return myNode -> value;
+		}
+		myNode = myNode -> next;
+	}
+	return myNode -> value;
 }
 
 
@@ -93,7 +102,7 @@ void done() {
 
 	/* Most likely, print statements for working set sizes will go here:
 		from hashtable.c,void display() */
-
+	
 }
 
 int main(int argc, char const *argv[])
@@ -104,11 +113,24 @@ int main(int argc, char const *argv[])
 
 	// void process ();
 
+	// For testing purposes
+	int i;
 	init (128, 1000);
-	put (1, 1);
-	put (20, 1);
-	put (128, 1);
-	put (3000, 1);
+	
+	// For testing put and get functions
+	// put (2, 2);
+	// put (3, 3);
+	// put (4, 4);
+	// i = get (2);
+	// i = get (3);
+	// i = get (4);
+
+	// For testing windowsize functions
+	for (int i = 0; i < 1002; ++i)
+	{
+		put (1, 1);
+		put (129, 2);
+	}
 
 	return 0;
 }
