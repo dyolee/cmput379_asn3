@@ -41,29 +41,21 @@ void init (int psize, int winsize) {
 	pageSize = psize;
 	windowSize = winsize;
 	int pageArray[psize];
-	pageCount = (int *)pageArray[psize];
+	pageCount = pageArray;
 }
 
-
-int hashFunction (unsigned int address, int value) {
-
-	int bucket = 0;
-
-	totalAccess ++;
-	/* If totalAccess = winsize then do something */
-
-	printf ("%d %d %d \n", windowSize, totalAccess, pageSize);
-	pageCount[0]++;
-	printf("%d %d\n", pageCount[0], pageCount[1]);
-	return bucket;
-}
 
 
 void put (unsigned int address, int value) {
 
 	/* From hashtable.c, void insertToHash */
-	int bucket;
-	bucket = hashFunction(address, value);
+	int bucket = 0;
+	totalAccess ++;
+	printf ("%d %d %d \n", windowSize, totalAccess, pageSize);
+	pageCount[0]++;
+	printf("%d %d\n", pageCount[0], pageCount[1]);
+	
+	// bucket = hashFunction(address, value);
 
 }
 
@@ -97,3 +89,16 @@ int main(int argc, char const *argv[])
 
 	return 0;
 }
+
+/*int hashFunction (unsigned int address, int value) {
+
+	int bucket = 0;
+
+	totalAccess ++;
+	// If totalAccess = winsize then do something
+
+	printf ("%d %d %d \n", windowSize, totalAccess, pageSize);
+	pageCount[0]++;
+	printf("%d %d\n", pageCount[0], pageCount[1]);
+	return bucket;
+}*/
