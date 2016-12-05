@@ -5,3 +5,5 @@ sim:
 clean:
 	rm -rf hashtable
 	rm -rf sim
+run: 
+	./sim

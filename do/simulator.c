@@ -38,8 +38,8 @@ struct node * createNode (unsigned int address, int value, int pageNumber) {
 	return newnode;
 };
 
-
 void init (int psize, int winsize) {
+	// init globals
 	pageSize = psize;
 	windowSize = winsize;
 	int pageArray[128];
