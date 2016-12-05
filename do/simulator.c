@@ -10,6 +10,7 @@ struct hash * hashTable = NULL;
 
 
 struct node {
+	int pageNumber;
 	unsigned int address;
 	int value;
 	struct node *next;
@@ -21,9 +22,16 @@ struct hash {
 };
 
 
-struct node * createNode (unsigned int address, int value) {
+int pageSize;
+int windowSize;
+int totalAccess = 0;
+int *pageCount;
+
+
+struct node * createNode (unsigned int address, int value, int pageNumber) {
 	struct node *newnode;
 	newnode = (struct node *) malloc (sizeof (struct node));
+	newnode -> pageNumber = pageNumber;
 	newnode -> address = address;
 	newnode -> value = value;
 	newnode -> next = NULL;
@@ -31,17 +39,12 @@ struct node * createNode (unsigned int address, int value) {
 };
 
 
-int pageSize;
-int windowSize;
-int totalAccess = 0;
-int *pageCount;
-
 void init (int psize, int winsize) {
-	// do nothing
 	pageSize = psize;
 	windowSize = winsize;
-	int pageArray[psize];
+	int pageArray[128];
 	pageCount = pageArray;
+	hashTable = (struct hash *) calloc (psize, sizeof(struct hash));
 }
 
 
@@ -50,16 +53,30 @@ void put (unsigned int address, int value) {
 
 	int hashIndex = 0;
 	totalAccess ++;
+	int pageNumber;
 
 	hashIndex = address%pageSize;
-	pageCount[hashIndex]++;
-
-	if (totalAccess == windowSize)
-	{
-		/* The number of instructions is equal to the windowSize. Do something */
+	pageNumber = address/pageSize;
+	pageCount[pageNumber] += 1;
+	
+	if (totalAccess == windowSize) {
+		for (int i = 0; i < pageSize; ++i) {
+			if (pageCount[i] > 0) {
+				printf("Page %d: \t Accesses: %d\n", i, pageCount[i]);
+				pageCount[i] = 0;
+			}
+		}
 	}
 
-	/* From hashtable.c, void insertToHash would go here */
+	printf ("hashIndex: %d, value: %d, address: %d, pageCount: %d \n", hashIndex, value, address, pageCount[pageNumber]);
+
+	struct node *newnode = createNode(address, value, pageNumber);
+	if (!hashTable[hashIndex].head) {
+		hashTable[hashIndex].head = newnode;
+	} else {
+		newnode -> next = (hashTable[hashIndex].head);
+		hashTable[hashIndex].head = newnode;
+	}
 }
 
 
@@ -89,6 +106,9 @@ int main(int argc, char const *argv[])
 
 	init (128, 1000);
 	put (1, 1);
+	put (20, 1);
+	put (128, 1);
+	put (3000, 1);
 
 	return 0;
 }
