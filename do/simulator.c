@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-/* Used code from: 
+/* Referenced: 
 	http://www.sanfoundry.com/c-program-implement-hash-tables-chaining-with-singly-linked-lists/ */
 
 
@@ -48,11 +48,11 @@ void init (int psize, int winsize) {
 
 void put (unsigned int address, int value) {
 
-	int bucket = 0;
+	int hashIndex = 0;
 	totalAccess ++;
 
-	bucket = address%pageSize;
-	pageCount[bucket]++;
+	hashIndex = address%pageSize;
+	pageCount[hashIndex]++;
 
 	if (totalAccess == windowSize)
 	{
@@ -95,7 +95,7 @@ int main(int argc, char const *argv[])
 
 /*int hashFunction (unsigned int address, int value) {
 
-	int bucket = 0;
+	int hashIndex = 0;
 
 	totalAccess ++;
 	// If totalAccess = winsize then do something
@@ -103,5 +103,5 @@ int main(int argc, char const *argv[])
 	printf ("%d %d %d \n", windowSize, totalAccess, pageSize);
 	pageCount[0]++;
 	printf("%d %d\n", pageCount[0], pageCount[1]);
-	return bucket;
+	return hashIndex;
 }*/
