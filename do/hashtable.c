@@ -2,6 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+/* Code taken from: http://www.sanfoundry.com/c-program-implement-hash-tables-chaining-with-singly-linked-lists/ */
+
 struct hash *hashTable = NULL;
 int eleCount = 0;
 

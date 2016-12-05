@@ -2,8 +2,11 @@
 #include <string.h>
 #include <stdlib.h>
 
+/* Used code from: 
+	http://www.sanfoundry.com/c-program-implement-hash-tables-chaining-with-singly-linked-lists/ */
 
 struct hash * hashTable = NULL;
+
 
 struct node {
 	unsigned int address;
@@ -11,9 +14,11 @@ struct node {
 	struct node *next;
 }
 
+
 struct hash {
 	struct node *head;
 }
+
 
 struct node * createNode (unsigned int address, int value) {
 	struct node *newnode;
@@ -23,6 +28,7 @@ struct node * createNode (unsigned int address, int value) {
 	newnode -> next = NULL;
 	return newnode;
 }
+
 
 void init (int psize, int winsize) {
 
