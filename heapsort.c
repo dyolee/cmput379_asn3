@@ -1,8 +1,13 @@
 // Reference http://quiz.geeksforgeeks.org/heap-sort/
 
 // C++ program for implementation of Heap Sort
+#define _XOPEN_SOURCE
 #include <stdio.h>
-#include <simulator.h>
+#include <stdlib.h>
+#include "simulator.h"
+
+int psize;
+int winsize;
 
 // A utility function to swap two elements
 void swap ( unsigned int a1, unsigned int a2 )
@@ -66,7 +71,7 @@ void printArr( unsigned int arr, int n )
 {
     unsigned int addr;
     for ( addr = arr; addr < arr+n; addr++ )
-	printf( "%d", get(addr) );
+	printf( "%d,\n", get(addr) );
 }
 
 void process () {
@@ -95,8 +100,10 @@ void process () {
 }
  
 // Driver program
-int main()
+int main(int argc, char **argv)
 {
+    psize = atoi(argv[1]);
+    winsize = atoi(argv[2]);
     process();
     return 0;
 }

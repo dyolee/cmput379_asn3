@@ -5,6 +5,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "simulator.h"
+
+int psize;
+int winsize;
  
 // A utility function to swap two elements
 void swap ( unsigned int a1, unsigned int a2 )
@@ -150,16 +153,11 @@ void process () {
     scanf ("%d", &n);
     printf ("Sorting %1d keys\n", n);
 
-    init (128, 1000);
+    init (psize, winsize);
 
     /* Generate the sorting problem */
     for (i = arr; i < n; i++) 
     	put (i, lrand48());
-
-    printf("Unsorted: \n");
-    printArr(arr, n);
-
-
 
     /* Sort the numbers */
     quickSortIterative(arr, 0, n-1);
@@ -173,8 +171,10 @@ void process () {
 }
  
 // Driver program to test above functions
-int main()
+int main(int argc, char **argv )
 {
+	psize = argv[1];
+	winsize = argv[2];
     process();
     return 0;
 }
