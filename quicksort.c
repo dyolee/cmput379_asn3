@@ -60,7 +60,7 @@ int partition (unsigned int arr, int l, int h)
 //     // Keep popping from stack while is not empty
 //     while ( top >= 0 )
 //     {
-//         printf("Top: %d\n", top );
+        // printf("Top: %d\n", top );
 //         // Pop h and l
 //         h = get(stack - (top--));
 //         l = get(stack - (top--));
@@ -138,10 +138,10 @@ void quickSortIterative (unsigned int arr, int l, int h)
 // A utility function to print contents of arr
 void printArr( unsigned int arr, int n )
 {
-    unsigned int addr;
-    for ( addr = arr; addr < arr+n; addr++ )
-    	printf( "%d, ", get(addr) );
-    printf("\n");
+    // unsigned int addr;
+    // for ( addr = arr; addr < arr+n; addr++ )
+    	// printf( "%d, ", get(addr) );
+    // printf("\n");
 }
 
 void process () {
@@ -151,7 +151,7 @@ void process () {
     unsigned int arr = 0; // starting address of array
 
     scanf ("%d", &n);
-    printf ("Sorting %1d keys\n", n);
+    // printf ("Sorting %1d keys\n", n);
 
     init (psize, winsize);
 
@@ -163,7 +163,7 @@ void process () {
     quickSortIterative(arr, 0, n-1);
 
     /* Verify correctness of sort */
-    printf("Sorted array is \n");
+    // printf("Sorted array is \n");
     printArr(arr, n);
 
     /* Show statistics */
@@ -173,8 +173,8 @@ void process () {
 // Driver program to test above functions
 int main(int argc, char **argv )
 {
-	psize = argv[1];
-	winsize = argv[2];
+	psize = atoi(argv[1]);
+	winsize = atoi(argv[2]);
     process();
     return 0;
 }

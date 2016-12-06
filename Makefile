@@ -27,4 +27,4 @@ simulator.o: simulator.c simulator.h
 	$(CC) $(CFLAGS) -c simulator.c
 
 clean:
-	rm $(TARGET1) $(TARGET2) *.o *~
+	rm $(TARGET1) $(TARGET2) *.o *~ *.txt

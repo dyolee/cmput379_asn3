@@ -12,7 +12,8 @@ int pageSize;
 int windowSize;
 int totalAccess = 0;
 int *pageCount;
-FILE *csv;
+int intervalCount = 0;
+FILE *txt;
 
 
 struct node * createNode (unsigned int address, int value, int pageNumber) {
@@ -32,7 +33,7 @@ void init (int psize, int winsize) {
 	int pageArray[33554431/psize];
 	pageCount = pageArray;
 	hashTable = (struct hash *) calloc (psize, sizeof(struct hash));
-	csv = fopen ("windowsize_output.csv", "w+");
+	txt = fopen ("windowsize_output.txt", "w+");
 }
 
 
@@ -42,21 +43,30 @@ void put (unsigned int address, int value) {
 	int hashIndex = 0;
 	totalAccess ++;
 	int pageNumber;
+	int intervalMessagePrinted = 0;
 
 	hashIndex = address%pageSize;
 	pageNumber = address/pageSize;
-	pageCount[pageNumber] += 1;
+	pageCount[pageNumber] ++;
 	
 
 	if (totalAccess == windowSize) {
+		intervalCount++;
 		for (int i = 0; i < pageSize; ++i) {
 			if (pageCount[i] > 0) {
-				fprintf(csv, "Page %d had %d accesses, ", i, pageCount[i]);
+				if (!intervalMessagePrinted) {
+					fprintf(txt, "Interval %d: ", intervalCount);
+					fflush(txt);
+					intervalMessagePrinted = 1;
+				}
+				fprintf(txt, "%d ", i);
+				fflush (txt);
 				pageCount[i] = 0;
 				totalAccess = 0;
 			}
 		}
-		fprintf(csv, "\n");
+		fprintf(txt, "\n");
+		fflush (txt);
 	}
 
 	struct node *newnode = createNode(address, value, pageNumber);
@@ -89,6 +99,28 @@ int get (unsigned int address) {
 
 void done() {
 
+	// int c;
+	txt = fopen("windowsize_output.txt", "r");
+    char x[1024];
+    int pageAccessCount = 0;
+    double averageAccess;
 	
+	if (txt) {
+	    while (fscanf(txt, " %1023s", x) == 1) {
+	    	if (strstr("Interval", x) == NULL) {
+	    		pageAccessCount++;
+	    		printf("%s ", x);
+	    	}
+	    	if (strstr("Interval", x)) {
+	    		printf("\n");
+	    		printf("%s ", x);
+	    	}
+	    }
+	    printf("\n");
+    	fclose(txt);
+	}
 
+	pageAccessCount -= intervalCount;
+	averageAccess = ((double)pageAccessCount)/((double)intervalCount);
+	printf("Average page accesses over execution time: %.2lf %d %d\n", averageAccess, pageAccessCount, intervalCount);
 }

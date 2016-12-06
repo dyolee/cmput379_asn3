@@ -69,9 +69,9 @@ void heapSort(unsigned int arr, int n)
 // A utility function to print contents of arr
 void printArr( unsigned int arr, int n )
 {
-    unsigned int addr;
-    for ( addr = arr; addr < arr+n; addr++ )
-	printf( "%d,\n", get(addr) );
+    // unsigned int addr;
+    // for ( addr = arr; addr < arr+n; addr++ )
+	// printf( "%d,\n", get(addr) );
 }
 
 void process () {
@@ -81,9 +81,9 @@ void process () {
     unsigned int arr = 0; // starting address of array
 
     scanf ("%d", &n);
-    printf ("Sorting %1d keys\n", n);
+    // printf ("Sorting %1d keys\n", n);
 
-    init (128, 1000);
+    init (psize, winsize); // Fixed init to take command line arguments
 
     /* Generate the sorting problem */
     for (i = arr; i < n; i++) put (i, lrand48 ());
@@ -92,8 +92,8 @@ void process () {
     heapSort(arr, n);
 
     /* Verify correctness of sort */
-    printf("Sorted array is \n");
-    printArr(arr, n);
+    // printf("Sorted array is \n");
+    // printArr(arr, n);
 
     /* Show statistics */
     done ();
