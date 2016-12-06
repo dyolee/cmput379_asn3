@@ -101,6 +101,7 @@ void done() {
 
 	// int c;
 	txt = fopen("windowsize_output.txt", "r");
+	FILE *temp = fopen("temp.txt", "w+");
     char x[1024];
     int pageAccessCount = 0;
     double averageAccess;
@@ -118,6 +119,7 @@ void done() {
 	    }
 	    printf("\n");
     	fclose(txt);
+    	fclose(temp);
 	}
 
 	pageAccessCount -= intervalCount;
