@@ -80,6 +80,7 @@ void process () {
     int n, i;
     unsigned int arr = 0; // starting address of array
 
+    printf("How many numbers to be sorted? ");
     scanf ("%d", &n);
     // printf ("Sorting %1d keys\n", n);
 
