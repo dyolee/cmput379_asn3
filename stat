@@ -1,0 +1,28 @@
+#!/bin/bash
+
+mkdir quicksort_stats
+mkdir heapsort_stats
+
+./statsim 64 1024 quicksort
+./statsim 128 1024 quicksort
+./statsim 256 1024 quicksort
+./statsim 512 1024 quicksort
+./statsim 128 128 quicksort
+./statsim 128 256 quicksort
+./statsim 128 512 quicksort
+./statsim 128 2048 quicksort
+./statsim 128 4096 quicksort
+./statsim 128 8192 quicksort
+./statsim 128 16384 quicksort
+
+./statsim 64 1024 heapsort
+./statsim 128 1024 heapsort
+./statsim 256 1024 heapsort
+./statsim 512 1024 heapsort
+./statsim 128 128 heapsort
+./statsim 128 256 heapsort
+./statsim 128 512 heapsort
+./statsim 128 2048 heapsort
+./statsim 128 4096 heapsort
+./statsim 128 8192 heapsort
+./statsim 128 16384 heapsort

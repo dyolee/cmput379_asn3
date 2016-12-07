@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir $3_stats
+make $3
+cd $3_stats
+../$3 $1 $2

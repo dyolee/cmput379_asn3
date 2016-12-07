@@ -15,6 +15,7 @@ int pageSize;
 int windowSize;
 int totalAccess = 0;
 int *pageCount;
+int largestPage = 0;
 int intervalCount = 0;
 char filename[256];
 FILE *txt;
@@ -27,10 +28,10 @@ void printStats () {
 	int wss = 0;
 
 	// Iterate through page access tracker
-	for (int i = 0; i < pageSize; ++i)
+	for (int i = 0; i <= largestPage; ++i)
 		if (pageCount[i] > 0) {
 			// count accessed pages as part of the working set
-			++wss;
+			wss++;
 			// reset stats for next window
 			pageCount[i] = 0;
 		}
@@ -79,8 +80,12 @@ void put (unsigned int address, int value) {
 	int pageNumber;
 
 	totalAccess++;
+
 	pageNumber = address/pageSize;
 	pageCount[pageNumber]++;
+
+	if (pageNumber > largestPage)
+		largestPage = pageNumber;
 	
 	if (totalAccess >= windowSize) {
 		intervalCount++;
@@ -115,14 +120,15 @@ void put (unsigned int address, int value) {
 int get (unsigned int address) {
 
 	struct node *myNode;
+	int pageNumber;
 
 	totalAccess++;
 	pageNumber = address/pageSize;
 	pageCount[pageNumber]++;
 
-	if (totalAccess == windowSize) {
+	if (totalAccess >= windowSize) {
 		intervalCount++;
-		printStats(txt);
+		printStats();
 	}
 
 	/* Calculate the hashIndex and search for that index */
