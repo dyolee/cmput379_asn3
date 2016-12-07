@@ -80,9 +80,10 @@ void process () {
 	int n, i;
 	unsigned int arr = 0; // starting address of array
 
-	printf("How many numbers to be sorted? ");
-	scanf ("%d", &n);
-	// printf ("Sorting %1d keys\n", n);
+	//printf("How many numbers to be sorted? ");
+	//scanf ("%d", &n);
+
+	n = 10000;
 
 	init (psize, winsize); // Fixed init to take command line arguments
 

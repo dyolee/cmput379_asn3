@@ -149,8 +149,10 @@ void process () {
 	int n, i;
 	unsigned int arr = 0; // starting address of array
 
-	printf("How many numbers to be sorted? ");
-	scanf ("%d", &n);
+	//printf("How many numbers to be sorted? ");
+	//scanf ("%d", &n);
+
+	n = 10000;
 
 	init (psize, winsize);
 

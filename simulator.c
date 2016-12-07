@@ -22,7 +22,7 @@ FILE *stats;
 
 
 /* Print function to print statistics to an output file */
-void printStats (FILE *txt) {
+void printStats () {
 
 	int wss = 0;
 
@@ -78,18 +78,17 @@ void put (unsigned int address, int value) {
 	int hashIndex = 0;
 	int pageNumber;
 
-	totalAccess ++;
+	totalAccess++;
+	pageNumber = address/pageSize;
+	pageCount[pageNumber]++;
 	
-	if (totalAccess == windowSize) {
+	if (totalAccess >= windowSize) {
 		intervalCount++;
-		printStats(txt);
+		printStats();
 	}
 
 	/* hashIndex is determined by the modulo between address and pagesize */
 	hashIndex = address%pageSize;
-	/* PageNumber is determined by taking the floor of address/pageSize */
-	pageNumber = address/pageSize;
-	pageCount[pageNumber] ++;
 	
 	/* When totalAccess (number of store instructions) is equal to the windowsize then 
 		record which pages were accessed at which intervals */
@@ -118,6 +117,8 @@ int get (unsigned int address) {
 	struct node *myNode;
 
 	totalAccess++;
+	pageNumber = address/pageSize;
+	pageCount[pageNumber]++;
 
 	if (totalAccess == windowSize) {
 		intervalCount++;
@@ -131,7 +132,6 @@ int get (unsigned int address) {
 	/* Search through the linked list at the hashIndex to find the value */
 	while (myNode != NULL) {
 		if (myNode -> address == address) {
-			pageCount[myNode -> pageNumber]++;
 			return myNode -> value;
 		}
 		myNode = myNode -> next;
