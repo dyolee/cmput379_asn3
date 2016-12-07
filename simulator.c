@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include "simulator.h"
 
+#define FILENAME "wss_history.txt"
+
 /* Referenced: 
 	http://www.sanfoundry.com/c-program-implement-hash-tables-chaining-with-singly-linked-lists/ */
 
@@ -14,27 +16,32 @@ int windowSize;
 int totalAccess = 0;
 int *pageCount;
 int intervalCount = 0;
+char filename[256];
 FILE *txt;
+FILE *stats;
 
 
 /* Print function to print statistics to an output file */
 void printStats (FILE *txt) {
-	int intervalMessagePrinted = 0;
-	for (int i = 0; i < pageSize; ++i) {
+
+	int wss = 0;
+
+	// Iterate through page access tracker
+	for (int i = 0; i < pageSize; ++i)
 		if (pageCount[i] > 0) {
-			if (!intervalMessagePrinted) {
-				fprintf(txt, "Interval %d: ", intervalCount);
-				fflush(txt);
-				intervalMessagePrinted = 1;
-			}
-			fprintf(txt, "%d ", i);
-			fflush (txt);
+			// count accessed pages as part of the working set
+			++wss;
+			// reset stats for next window
 			pageCount[i] = 0;
-			totalAccess = 0;
 		}
-	}
-	fprintf(txt, "\n");
-	fflush (txt);
+
+	// reset stats for next window
+	totalAccess = 0;
+
+	fprintf(txt, "%d ", wss);
+	fprintf(stats, "%d ", wss);
+	fflush(txt);
+	fflush(stats);
 }
 
 
@@ -58,7 +65,9 @@ void init (int psize, int winsize) {
 	int pageArray[33554431/psize];
 	pageCount = pageArray;
 	hashTable = (struct hash *) calloc (psize, sizeof(struct hash));
-	txt = fopen ("windowsize_output.txt", "w+");
+	txt = fopen (FILENAME, "w+");
+	sprintf(filename, "%dx%d.txt", psize, winsize);
+	stats = fopen (filename, "w+");
 }
 
 
@@ -122,6 +131,7 @@ int get (unsigned int address) {
 	/* Search through the linked list at the hashIndex to find the value */
 	while (myNode != NULL) {
 		if (myNode -> address == address) {
+			pageCount[myNode -> pageNumber]++;
 			return myNode -> value;
 		}
 		myNode = myNode -> next;
@@ -134,28 +144,25 @@ int get (unsigned int address) {
 
 void done() {
 
-	// int c;
-	txt = fopen("windowsize_output.txt", "r");
-	char x[1024];
-    int pageAccessCount = 0;
-    double averageAccess;
+	txt = fopen(FILENAME, "r");
+	int wss;
+	int pageAccessCount = 0;
+	double averageAccess;
+
+	printf("Working Set Size History:\n");
 	
 	if (txt) {
-	    while (fscanf(txt, " %1023s", x) == 1) {
-	    	if (strstr("Interval", x) == NULL) {
-	    		pageAccessCount++;
-	    		printf("%s ", x);
-	    	}
-	    	if (strstr("Interval", x)) {
-	    		printf("\n");
-	    		printf("%s ", x);
-	    	}
-	    }
-	    printf("\n");
-    	fclose(txt);
+
+		while (fscanf(txt, "%d ", &wss) == 1) {
+			pageAccessCount += wss;
+			printf("%d ", wss);
+		}
+
+		printf("\n");
+		fclose(txt);
 	}
 
 	pageAccessCount -= intervalCount;
 	averageAccess = ((double)pageAccessCount)/((double)intervalCount);
-	printf("Average page accesses over execution time: %.5lf %d %d\n", averageAccess, pageAccessCount, intervalCount);
+	printf("Average Working Set Size:\n%.5lf\n", averageAccess);
 }
