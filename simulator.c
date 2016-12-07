@@ -7,6 +7,7 @@
 /* Referenced: 
 	http://www.sanfoundry.com/c-program-implement-hash-tables-chaining-with-singly-linked-lists/ */
 
+
 struct hash * hashTable = NULL;
 int pageSize;
 int windowSize;
@@ -14,6 +15,27 @@ int totalAccess = 0;
 int *pageCount;
 int intervalCount = 0;
 FILE *txt;
+
+
+/* Print function to print statistics to an output file */
+void printStats (FILE *txt) {
+	int intervalMessagePrinted = 0;
+	for (int i = 0; i < pageSize; ++i) {
+		if (pageCount[i] > 0) {
+			if (!intervalMessagePrinted) {
+				fprintf(txt, "Interval %d: ", intervalCount);
+				fflush(txt);
+				intervalMessagePrinted = 1;
+			}
+			fprintf(txt, "%d ", i);
+			fflush (txt);
+			pageCount[i] = 0;
+			totalAccess = 0;
+		}
+	}
+	fprintf(txt, "\n");
+	fflush (txt);
+}
 
 
 /* Function to create a new node in the linked list and return that node */
@@ -45,10 +67,10 @@ void init (int psize, int winsize) {
 void put (unsigned int address, int value) {
 
 	int hashIndex = 0;
-	totalAccess ++;
 	int pageNumber;
-	int intervalMessagePrinted = 0;
 
+	totalAccess ++;
+	
 	/* hashIndex is determined by the modulo between address and pagesize */
 	hashIndex = address%pageSize;
 	/* PageNumber is determined by taking the floor of address/pageSize */
@@ -57,24 +79,6 @@ void put (unsigned int address, int value) {
 	
 	/* When totalAccess (number of store instructions) is equal to the windowsize then 
 		record which pages were accessed at which intervals */
-	if (totalAccess == windowSize) {
-		intervalCount++;
-		for (int i = 0; i < pageSize; ++i) {
-			if (pageCount[i] > 0) {
-				if (!intervalMessagePrinted) {
-					fprintf(txt, "Interval %d: ", intervalCount);
-					fflush(txt);
-					intervalMessagePrinted = 1;
-				}
-				fprintf(txt, "%d ", i);
-				fflush (txt);
-				pageCount[i] = 0;
-				totalAccess = 0;
-			}
-		}
-		fprintf(txt, "\n");
-		fflush (txt);
-	}
 
 	/* Create a new node */
 	struct node *newnode = createNode(address, value, pageNumber);
@@ -88,6 +92,12 @@ void put (unsigned int address, int value) {
 		newnode -> next = (hashTable[hashIndex].head);
 		hashTable[hashIndex].head = newnode;
 	}
+
+	if (totalAccess == windowSize) {
+		intervalCount++;
+		printStats(txt);
+	}
+
 }
 
 
@@ -96,6 +106,8 @@ void put (unsigned int address, int value) {
 int get (unsigned int address) {
 
 	struct node *myNode;
+
+	totalAccess++;
 
 	/* Calculate the hashIndex and search for that index */
 	int hashIndex = address % pageSize;
@@ -107,6 +119,11 @@ int get (unsigned int address) {
 			return myNode -> value;
 		}
 		myNode = myNode -> next;
+	}
+	
+	if (totalAccess == windowSize) {
+		intervalCount++;
+		printStats(txt);
 	}
 
 	return 0;
