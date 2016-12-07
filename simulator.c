@@ -71,6 +71,11 @@ void put (unsigned int address, int value) {
 
 	totalAccess ++;
 	
+	if (totalAccess == windowSize) {
+		intervalCount++;
+		printStats(txt);
+	}
+
 	/* hashIndex is determined by the modulo between address and pagesize */
 	hashIndex = address%pageSize;
 	/* PageNumber is determined by taking the floor of address/pageSize */
@@ -93,10 +98,6 @@ void put (unsigned int address, int value) {
 		hashTable[hashIndex].head = newnode;
 	}
 
-	if (totalAccess == windowSize) {
-		intervalCount++;
-		printStats(txt);
-	}
 
 }
 
@@ -108,6 +109,11 @@ int get (unsigned int address) {
 	struct node *myNode;
 
 	totalAccess++;
+
+	if (totalAccess == windowSize) {
+		intervalCount++;
+		printStats(txt);
+	}
 
 	/* Calculate the hashIndex and search for that index */
 	int hashIndex = address % pageSize;
@@ -121,10 +127,6 @@ int get (unsigned int address) {
 		myNode = myNode -> next;
 	}
 	
-	if (totalAccess == windowSize) {
-		intervalCount++;
-		printStats(txt);
-	}
 
 	return 0;
 }
@@ -134,8 +136,7 @@ void done() {
 
 	// int c;
 	txt = fopen("windowsize_output.txt", "r");
-	FILE *temp = fopen("temp.txt", "w+");
-    char x[1024];
+	char x[1024];
     int pageAccessCount = 0;
     double averageAccess;
 	
@@ -152,10 +153,9 @@ void done() {
 	    }
 	    printf("\n");
     	fclose(txt);
-    	fclose(temp);
 	}
 
 	pageAccessCount -= intervalCount;
 	averageAccess = ((double)pageAccessCount)/((double)intervalCount);
-	printf("Average page accesses over execution time: %.2lf %d %d\n", averageAccess, pageAccessCount, intervalCount);
+	printf("Average page accesses over execution time: %.5lf %d %d\n", averageAccess, pageAccessCount, intervalCount);
 }

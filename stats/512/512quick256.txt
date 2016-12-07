@@ -1,0 +1,2170 @@
+Interval 1: 0 
+Interval 2: 0 
+Interval 3: 0 1 
+Interval 4: 1 
+Interval 5: 1 2 
+Interval 6: 2 
+Interval 7: 2 3 
+Interval 8: 3 
+Interval 9: 3 4 
+Interval 10: 4 
+Interval 11: 4 5 
+Interval 12: 5 
+Interval 13: 5 6 
+Interval 14: 6 
+Interval 15: 6 7 
+Interval 16: 7 
+Interval 17: 7 8 
+Interval 18: 8 
+Interval 19: 8 9 
+Interval 20: 9 
+Interval 21: 9 10 
+Interval 22: 10 
+Interval 23: 10 11 
+Interval 24: 11 
+Interval 25: 11 12 
+Interval 26: 12 
+Interval 27: 12 13 
+Interval 28: 13 
+Interval 29: 13 14 
+Interval 30: 14 
+Interval 31: 14 15 
+Interval 32: 15 
+Interval 33: 15 16 
+Interval 34: 16 
+Interval 35: 16 17 
+Interval 36: 17 
+Interval 37: 17 18 
+Interval 38: 18 
+Interval 39: 18 19 
+Interval 40: 19 
+Interval 41: 19 20 
+Interval 42: 20 
+Interval 43: 20 21 
+Interval 44: 21 
+Interval 45: 21 22 
+Interval 46: 22 
+Interval 47: 22 23 
+Interval 48: 23 
+Interval 49: 23 24 
+Interval 50: 24 
+Interval 51: 24 25 
+Interval 52: 25 
+Interval 53: 25 26 
+Interval 54: 26 
+Interval 55: 26 27 
+Interval 56: 27 
+Interval 57: 27 28 
+Interval 58: 28 
+Interval 59: 28 29 
+Interval 60: 29 
+Interval 61: 29 30 
+Interval 62: 30 
+Interval 63: 30 31 
+Interval 64: 31 
+Interval 65: 31 32 
+Interval 66: 32 
+Interval 67: 32 33 
+Interval 68: 33 
+Interval 69: 33 34 
+Interval 70: 34 
+Interval 71: 34 35 
+Interval 72: 35 
+Interval 73: 35 36 
+Interval 74: 36 
+Interval 75: 36 37 
+Interval 76: 37 
+Interval 77: 37 38 
+Interval 78: 38 
+Interval 79: 0 38 39 
+Interval 80: 0 
+Interval 81: 0 
+Interval 82: 0 
+Interval 83: 0 
+Interval 84: 0 
+Interval 85: 0 
+Interval 86: 0 1 
+Interval 87: 0 1 
+Interval 88: 0 1 
+Interval 89: 0 1 
+Interval 90: 0 1 
+Interval 91: 1 
+Interval 92: 1 
+Interval 93: 1 2 
+Interval 94: 1 2 
+Interval 95: 1 2 
+Interval 96: 1 2 
+Interval 97: 1 2 
+Interval 98: 1 2 
+Interval 99: 1 2 
+Interval 100: 1 2 3 
+Interval 101: 1 2 3 
+Interval 102: 2 3 
+Interval 103: 2 3 
+Interval 104: 2 3 
+Interval 105: 2 3 
+Interval 106: 2 3 4 
+Interval 107: 2 4 
+Interval 108: 2 4 
+Interval 109: 2 4 
+Interval 110: 2 4 
+Interval 111: 2 4 
+Interval 112: 2 3 4 
+Interval 113: 3 4 5 
+Interval 114: 3 5 
+Interval 115: 3 5 
+Interval 116: 3 5 
+Interval 117: 3 5 
+Interval 118: 3 5 
+Interval 119: 3 5 
+Interval 120: 3 5 6 
+Interval 121: 3 6 
+Interval 122: 3 6 
+Interval 123: 3 6 
+Interval 124: 3 4 6 
+Interval 125: 4 6 
+Interval 126: 4 6 
+Interval 127: 4 6 7 
+Interval 128: 4 7 
+Interval 129: 4 7 
+Interval 130: 4 7 
+Interval 131: 4 7 
+Interval 132: 4 7 
+Interval 133: 4 7 
+Interval 134: 4 7 8 
+Interval 135: 4 5 8 
+Interval 136: 5 8 
+Interval 137: 5 8 
+Interval 138: 5 8 
+Interval 139: 5 8 
+Interval 140: 5 8 
+Interval 141: 5 8 9 
+Interval 142: 5 9 
+Interval 143: 5 9 
+Interval 144: 5 9 
+Interval 145: 5 9 
+Interval 146: 5 6 9 
+Interval 147: 6 9 
+Interval 148: 6 9 10 
+Interval 149: 6 10 
+Interval 150: 6 10 
+Interval 151: 6 10 
+Interval 152: 6 10 
+Interval 153: 6 10 
+Interval 154: 6 10 
+Interval 155: 6 10 11 
+Interval 156: 6 11 
+Interval 157: 6 7 11 
+Interval 158: 7 11 
+Interval 159: 7 11 
+Interval 160: 7 11 
+Interval 161: 7 11 
+Interval 162: 7 11 12 
+Interval 163: 7 12 
+Interval 164: 7 12 
+Interval 165: 7 12 
+Interval 166: 7 12 
+Interval 167: 7 12 
+Interval 168: 7 8 12 
+Interval 169: 8 12 13 
+Interval 170: 8 13 
+Interval 171: 8 13 
+Interval 172: 8 13 
+Interval 173: 8 13 
+Interval 174: 8 13 
+Interval 175: 8 13 
+Interval 176: 8 13 14 
+Interval 177: 8 14 
+Interval 178: 8 14 
+Interval 179: 8 14 
+Interval 180: 8 9 14 
+Interval 181: 9 14 
+Interval 182: 9 14 
+Interval 183: 9 14 15 
+Interval 184: 9 15 
+Interval 185: 9 15 
+Interval 186: 9 15 
+Interval 187: 9 15 
+Interval 188: 9 15 
+Interval 189: 9 15 
+Interval 190: 9 15 16 
+Interval 191: 9 10 16 
+Interval 192: 10 16 
+Interval 193: 10 16 
+Interval 194: 10 16 
+Interval 195: 10 16 
+Interval 196: 10 16 
+Interval 197: 10 16 17 
+Interval 198: 10 17 
+Interval 199: 10 17 
+Interval 200: 10 17 
+Interval 201: 10 17 
+Interval 202: 10 11 17 
+Interval 203: 11 17 
+Interval 204: 11 17 18 
+Interval 205: 11 18 
+Interval 206: 11 18 
+Interval 207: 11 18 
+Interval 208: 11 18 
+Interval 209: 11 18 
+Interval 210: 11 18 
+Interval 211: 11 18 19 
+Interval 212: 11 19 
+Interval 213: 11 12 19 
+Interval 214: 12 19 
+Interval 215: 12 19 
+Interval 216: 12 19 
+Interval 217: 12 19 
+Interval 218: 12 19 20 
+Interval 219: 12 20 
+Interval 220: 12 20 
+Interval 221: 12 20 
+Interval 222: 12 20 
+Interval 223: 12 20 
+Interval 224: 12 20 
+Interval 225: 12 13 20 21 
+Interval 226: 13 21 
+Interval 227: 13 21 
+Interval 228: 13 21 
+Interval 229: 13 21 
+Interval 230: 13 21 
+Interval 231: 13 21 
+Interval 232: 13 21 22 
+Interval 233: 13 22 
+Interval 234: 13 22 
+Interval 235: 13 22 
+Interval 236: 13 14 22 
+Interval 237: 14 22 
+Interval 238: 14 22 
+Interval 239: 14 22 23 
+Interval 240: 14 23 
+Interval 241: 14 23 
+Interval 242: 14 23 
+Interval 243: 14 23 
+Interval 244: 14 23 
+Interval 245: 14 23 
+Interval 246: 14 23 24 
+Interval 247: 14 15 24 
+Interval 248: 15 24 
+Interval 249: 15 24 
+Interval 250: 15 24 
+Interval 251: 15 24 
+Interval 252: 15 24 
+Interval 253: 15 24 25 
+Interval 254: 15 25 
+Interval 255: 15 25 
+Interval 256: 15 25 
+Interval 257: 15 25 
+Interval 258: 15 16 25 
+Interval 259: 16 25 
+Interval 260: 16 25 26 
+Interval 261: 16 26 
+Interval 262: 16 26 
+Interval 263: 16 26 
+Interval 264: 16 26 
+Interval 265: 16 26 
+Interval 266: 16 26 27 
+Interval 267: 16 27 
+Interval 268: 16 27 
+Interval 269: 16 27 
+Interval 270: 16 17 27 
+Interval 271: 17 27 
+Interval 272: 17 27 
+Interval 273: 17 27 28 
+Interval 274: 17 28 
+Interval 275: 17 28 
+Interval 276: 17 28 
+Interval 277: 17 28 
+Interval 278: 17 28 
+Interval 279: 17 28 
+Interval 280: 17 28 29 
+Interval 281: 17 18 29 
+Interval 282: 18 29 
+Interval 283: 18 29 
+Interval 284: 18 29 
+Interval 285: 18 29 
+Interval 286: 18 29 
+Interval 287: 18 29 30 
+Interval 288: 18 30 
+Interval 289: 18 30 
+Interval 290: 18 30 
+Interval 291: 18 30 
+Interval 292: 18 19 30 
+Interval 293: 19 30 
+Interval 294: 19 30 31 
+Interval 295: 19 31 
+Interval 296: 19 31 
+Interval 297: 19 31 
+Interval 298: 19 31 
+Interval 299: 19 31 
+Interval 300: 19 31 
+Interval 301: 19 31 32 
+Interval 302: 19 32 
+Interval 303: 19 20 32 
+Interval 304: 20 32 
+Interval 305: 20 32 
+Interval 306: 20 32 
+Interval 307: 20 32 
+Interval 308: 20 32 33 
+Interval 309: 20 33 
+Interval 310: 20 33 
+Interval 311: 20 33 
+Interval 312: 20 33 
+Interval 313: 20 33 
+Interval 314: 20 21 33 
+Interval 315: 21 33 34 
+Interval 316: 21 34 
+Interval 317: 21 34 
+Interval 318: 21 34 
+Interval 319: 21 34 
+Interval 320: 21 34 
+Interval 321: 21 34 
+Interval 322: 21 34 35 
+Interval 323: 21 35 
+Interval 324: 21 35 
+Interval 325: 21 35 
+Interval 326: 21 22 35 
+Interval 327: 22 35 
+Interval 328: 22 35 
+Interval 329: 22 36 
+Interval 330: 22 36 
+Interval 331: 22 36 
+Interval 332: 22 36 
+Interval 333: 22 36 
+Interval 334: 22 36 
+Interval 335: 22 36 
+Interval 336: 22 36 37 
+Interval 337: 22 23 37 
+Interval 338: 23 37 
+Interval 339: 23 37 
+Interval 340: 23 37 
+Interval 341: 23 37 
+Interval 342: 23 37 38 
+Interval 343: 23 38 
+Interval 344: 23 38 
+Interval 345: 23 38 
+Interval 346: 23 38 
+Interval 347: 23 38 
+Interval 348: 23 24 38 
+Interval 349: 24 38 
+Interval 350: 24 38 39 
+Interval 351: 24 
+Interval 352: 24 
+Interval 353: 24 
+Interval 354: 24 
+Interval 355: 24 
+Interval 356: 24 25 
+Interval 357: 24 25 
+Interval 358: 24 25 
+Interval 359: 24 25 
+Interval 360: 25 
+Interval 361: 25 
+Interval 362: 25 
+Interval 363: 25 
+Interval 364: 25 26 
+Interval 365: 25 26 
+Interval 366: 25 26 
+Interval 367: 25 26 
+Interval 368: 25 26 
+Interval 369: 25 26 
+Interval 370: 25 26 
+Interval 371: 26 27 
+Interval 372: 26 27 
+Interval 373: 26 27 
+Interval 374: 26 27 
+Interval 375: 26 27 
+Interval 376: 26 27 
+Interval 377: 26 27 
+Interval 378: 26 27 
+Interval 379: 26 27 28 
+Interval 380: 26 28 
+Interval 381: 26 27 28 
+Interval 382: 27 28 
+Interval 383: 27 28 
+Interval 384: 27 28 
+Interval 385: 27 28 
+Interval 386: 27 28 29 
+Interval 387: 27 29 
+Interval 388: 27 29 
+Interval 389: 27 29 
+Interval 390: 27 29 
+Interval 391: 27 29 
+Interval 392: 27 28 29 
+Interval 393: 28 29 
+Interval 394: 28 29 30 
+Interval 395: 28 30 
+Interval 396: 28 30 
+Interval 397: 28 30 
+Interval 398: 28 30 
+Interval 399: 28 30 
+Interval 400: 28 30 
+Interval 401: 28 30 31 
+Interval 402: 28 31 
+Interval 403: 28 29 31 
+Interval 404: 29 31 
+Interval 405: 29 31 
+Interval 406: 29 31 
+Interval 407: 29 31 
+Interval 408: 29 31 32 
+Interval 409: 29 32 
+Interval 410: 29 32 
+Interval 411: 29 32 
+Interval 412: 29 32 
+Interval 413: 29 32 
+Interval 414: 29 30 32 
+Interval 415: 30 32 
+Interval 416: 30 32 33 
+Interval 417: 30 33 
+Interval 418: 30 33 
+Interval 419: 30 33 
+Interval 420: 30 33 
+Interval 421: 30 33 
+Interval 422: 30 33 
+Interval 423: 30 33 34 
+Interval 424: 30 34 
+Interval 425: 30 31 34 
+Interval 426: 31 34 
+Interval 427: 31 34 
+Interval 428: 31 34 
+Interval 429: 31 34 
+Interval 430: 31 34 35 
+Interval 431: 31 35 
+Interval 432: 31 35 
+Interval 433: 31 35 
+Interval 434: 31 35 
+Interval 435: 31 35 
+Interval 436: 31 32 35 
+Interval 437: 32 35 
+Interval 438: 32 35 36 
+Interval 439: 32 36 
+Interval 440: 32 36 
+Interval 441: 32 36 
+Interval 442: 32 36 
+Interval 443: 32 36 
+Interval 444: 32 36 
+Interval 445: 32 36 37 
+Interval 446: 32 37 
+Interval 447: 32 33 37 
+Interval 448: 33 37 
+Interval 449: 33 37 
+Interval 450: 33 37 
+Interval 451: 33 37 
+Interval 452: 33 37 
+Interval 453: 33 37 38 
+Interval 454: 33 38 
+Interval 455: 33 38 
+Interval 456: 33 38 
+Interval 457: 33 38 
+Interval 458: 33 34 38 
+Interval 459: 34 38 
+Interval 460: 34 38 39 
+Interval 461: 34 
+Interval 462: 34 
+Interval 463: 34 
+Interval 464: 34 35 
+Interval 465: 34 35 
+Interval 466: 34 35 
+Interval 467: 34 35 
+Interval 468: 34 35 
+Interval 469: 34 35 36 
+Interval 470: 34 36 
+Interval 471: 34 35 36 
+Interval 472: 35 36 
+Interval 473: 35 36 
+Interval 474: 35 36 
+Interval 475: 35 36 37 
+Interval 476: 35 37 
+Interval 477: 35 37 
+Interval 478: 35 37 
+Interval 479: 35 37 
+Interval 480: 35 37 38 
+Interval 481: 35 38 
+Interval 482: 35 38 
+Interval 483: 35 38 
+Interval 484: 35 36 38 
+Interval 485: 36 38 39 
+Interval 486: 36 
+Interval 487: 36 37 
+Interval 488: 36 37 
+Interval 489: 36 37 
+Interval 490: 36 37 38 
+Interval 491: 36 38 
+Interval 492: 36 38 
+Interval 493: 36 38 39 
+Interval 494: 36 
+Interval 495: 36 
+Interval 496: 36 37 
+Interval 497: 36 37 
+Interval 498: 36 37 
+Interval 499: 36 37 
+Interval 500: 36 37 
+Interval 501: 36 37 
+Interval 502: 37 38 
+Interval 503: 37 38 
+Interval 504: 37 38 
+Interval 505: 37 38 
+Interval 506: 37 38 
+Interval 507: 37 38 
+Interval 508: 37 38 39 
+Interval 509: 37 
+Interval 510: 37 
+Interval 511: 37 38 
+Interval 512: 37 38 
+Interval 513: 37 38 
+Interval 514: 38 
+Interval 515: 38 
+Interval 516: 38 
+Interval 517: 38 
+Interval 518: 38 
+Interval 519: 38 39 
+Interval 520: 38 39 
+Interval 521: 38 39 
+Interval 522: 38 
+Interval 523: 38 39 
+Interval 524: 38 39 
+Interval 525: 38 39 
+Interval 526: 38 39 
+Interval 527: 38 39 
+Interval 528: 38 
+Interval 529: 38 
+Interval 530: 38 
+Interval 531: 38 
+Interval 532: 38 
+Interval 533: 38 
+Interval 534: 38 
+Interval 535: 38 
+Interval 536: 38 
+Interval 537: 38 
+Interval 538: 38 
+Interval 539: 37 38 
+Interval 540: 37 
+Interval 541: 37 
+Interval 542: 37 38 
+Interval 543: 37 38 
+Interval 544: 37 38 
+Interval 545: 38 
+Interval 546: 38 
+Interval 547: 38 
+Interval 548: 38 
+Interval 549: 38 
+Interval 550: 38 
+Interval 551: 38 
+Interval 552: 38 
+Interval 553: 38 
+Interval 554: 38 
+Interval 555: 38 
+Interval 556: 38 
+Interval 557: 38 
+Interval 558: 38 
+Interval 559: 38 
+Interval 560: 38 
+Interval 561: 38 
+Interval 562: 38 
+Interval 563: 38 
+Interval 564: 38 
+Interval 565: 38 
+Interval 566: 38 
+Interval 567: 38 
+Interval 568: 38 
+Interval 569: 38 
+Interval 570: 38 
+Interval 571: 37 38 
+Interval 572: 37 
+Interval 573: 37 
+Interval 574: 37 38 
+Interval 575: 37 38 
+Interval 576: 37 38 
+Interval 577: 38 
+Interval 578: 38 
+Interval 579: 38 
+Interval 580: 38 
+Interval 581: 38 
+Interval 582: 38 
+Interval 583: 38 
+Interval 584: 37 38 
+Interval 585: 37 
+Interval 586: 37 38 
+Interval 587: 37 38 
+Interval 588: 37 38 
+Interval 589: 37 38 
+Interval 590: 37 38 
+Interval 591: 37 38 
+Interval 592: 37 38 
+Interval 593: 37 
+Interval 594: 37 
+Interval 595: 37 
+Interval 596: 37 
+Interval 597: 37 
+Interval 598: 37 
+Interval 599: 37 
+Interval 600: 37 
+Interval 601: 37 
+Interval 602: 37 
+Interval 603: 37 
+Interval 604: 37 
+Interval 605: 37 
+Interval 606: 37 
+Interval 607: 37 
+Interval 608: 37 
+Interval 609: 36 37 
+Interval 610: 36 
+Interval 611: 36 37 
+Interval 612: 36 37 
+Interval 613: 36 37 
+Interval 614: 36 
+Interval 615: 36 
+Interval 616: 36 
+Interval 617: 36 
+Interval 618: 36 37 
+Interval 619: 37 
+Interval 620: 37 
+Interval 621: 37 
+Interval 622: 37 
+Interval 623: 37 
+Interval 624: 37 
+Interval 625: 36 
+Interval 626: 36 
+Interval 627: 36 
+Interval 628: 36 37 
+Interval 629: 36 37 
+Interval 630: 36 37 
+Interval 631: 36 37 
+Interval 632: 36 37 
+Interval 633: 37 
+Interval 634: 37 
+Interval 635: 37 
+Interval 636: 37 
+Interval 637: 37 
+Interval 638: 37 
+Interval 639: 37 
+Interval 640: 37 
+Interval 641: 37 
+Interval 642: 37 
+Interval 643: 37 
+Interval 644: 37 
+Interval 645: 37 
+Interval 646: 36 37 
+Interval 647: 36 37 
+Interval 648: 37 
+Interval 649: 37 
+Interval 650: 37 
+Interval 651: 36 37 
+Interval 652: 37 
+Interval 653: 37 
+Interval 654: 37 
+Interval 655: 36 37 
+Interval 656: 37 
+Interval 657: 37 
+Interval 658: 37 
+Interval 659: 36 37 
+Interval 660: 36 37 
+Interval 661: 37 
+Interval 662: 37 
+Interval 663: 37 
+Interval 664: 37 
+Interval 665: 37 
+Interval 666: 36 37 
+Interval 667: 36 37 
+Interval 668: 36 
+Interval 669: 36 
+Interval 670: 36 
+Interval 671: 36 
+Interval 672: 36 
+Interval 673: 36 
+Interval 674: 36 
+Interval 675: 36 
+Interval 676: 36 
+Interval 677: 36 
+Interval 678: 36 
+Interval 679: 36 
+Interval 680: 36 
+Interval 681: 36 
+Interval 682: 36 
+Interval 683: 36 
+Interval 684: 36 
+Interval 685: 36 
+Interval 686: 36 
+Interval 687: 36 
+Interval 688: 36 
+Interval 689: 36 
+Interval 690: 36 
+Interval 691: 36 
+Interval 692: 36 
+Interval 693: 36 
+Interval 694: 36 
+Interval 695: 36 
+Interval 696: 36 
+Interval 697: 36 
+Interval 698: 36 
+Interval 699: 36 
+Interval 700: 36 
+Interval 701: 36 
+Interval 702: 36 
+Interval 703: 36 
+Interval 704: 36 
+Interval 705: 36 
+Interval 706: 36 
+Interval 707: 36 
+Interval 708: 36 
+Interval 709: 34 36 
+Interval 710: 34 
+Interval 711: 34 
+Interval 712: 34 
+Interval 713: 34 
+Interval 714: 34 
+Interval 715: 34 
+Interval 716: 34 35 
+Interval 717: 34 35 
+Interval 718: 35 
+Interval 719: 35 
+Interval 720: 35 
+Interval 721: 35 
+Interval 722: 35 
+Interval 723: 35 
+Interval 724: 35 
+Interval 725: 35 
+Interval 726: 35 36 
+Interval 727: 35 36 
+Interval 728: 36 
+Interval 729: 36 
+Interval 730: 36 
+Interval 731: 34 36 
+Interval 732: 34 
+Interval 733: 34 35 
+Interval 734: 34 35 
+Interval 735: 34 
+Interval 736: 34 
+Interval 737: 34 35 
+Interval 738: 34 35 
+Interval 739: 34 35 
+Interval 740: 34 
+Interval 741: 34 
+Interval 742: 34 
+Interval 743: 34 35 
+Interval 744: 34 35 
+Interval 745: 34 35 
+Interval 746: 34 35 
+Interval 747: 35 
+Interval 748: 35 
+Interval 749: 35 
+Interval 750: 35 
+Interval 751: 35 
+Interval 752: 35 
+Interval 753: 35 
+Interval 754: 35 
+Interval 755: 35 
+Interval 756: 35 
+Interval 757: 35 
+Interval 758: 35 
+Interval 759: 35 
+Interval 760: 35 
+Interval 761: 35 
+Interval 762: 35 
+Interval 763: 35 
+Interval 764: 35 
+Interval 765: 35 
+Interval 766: 35 
+Interval 767: 35 
+Interval 768: 35 
+Interval 769: 35 
+Interval 770: 35 
+Interval 771: 35 
+Interval 772: 35 
+Interval 773: 35 
+Interval 774: 35 
+Interval 775: 35 
+Interval 776: 35 
+Interval 777: 35 
+Interval 778: 35 
+Interval 779: 35 
+Interval 780: 35 
+Interval 781: 35 
+Interval 782: 35 
+Interval 783: 35 
+Interval 784: 34 35 
+Interval 785: 34 
+Interval 786: 34 35 
+Interval 787: 34 35 
+Interval 788: 34 
+Interval 789: 34 
+Interval 790: 34 
+Interval 791: 34 35 
+Interval 792: 34 35 
+Interval 793: 34 35 
+Interval 794: 35 
+Interval 795: 35 
+Interval 796: 35 
+Interval 797: 35 
+Interval 798: 35 
+Interval 799: 35 
+Interval 800: 35 
+Interval 801: 35 
+Interval 802: 35 
+Interval 803: 35 
+Interval 804: 35 
+Interval 805: 35 
+Interval 806: 35 
+Interval 807: 34 35 
+Interval 808: 34 
+Interval 809: 34 
+Interval 810: 34 
+Interval 811: 34 35 
+Interval 812: 34 35 
+Interval 813: 34 35 
+Interval 814: 34 35 
+Interval 815: 34 35 
+Interval 816: 34 35 
+Interval 817: 34 35 
+Interval 818: 34 35 
+Interval 819: 34 35 
+Interval 820: 34 
+Interval 821: 34 
+Interval 822: 34 
+Interval 823: 34 
+Interval 824: 34 
+Interval 825: 34 
+Interval 826: 34 
+Interval 827: 34 
+Interval 828: 34 
+Interval 829: 34 
+Interval 830: 34 
+Interval 831: 34 
+Interval 832: 34 
+Interval 833: 34 
+Interval 834: 34 
+Interval 835: 34 
+Interval 836: 34 
+Interval 837: 34 
+Interval 838: 34 
+Interval 839: 34 
+Interval 840: 34 
+Interval 841: 34 
+Interval 842: 34 
+Interval 843: 34 
+Interval 844: 34 
+Interval 845: 34 
+Interval 846: 34 
+Interval 847: 34 
+Interval 848: 24 34 
+Interval 849: 24 
+Interval 850: 24 
+Interval 851: 24 25 
+Interval 852: 24 25 
+Interval 853: 24 25 
+Interval 854: 24 25 26 
+Interval 855: 24 26 
+Interval 856: 24 26 
+Interval 857: 24 26 
+Interval 858: 24 26 27 
+Interval 859: 24 27 
+Interval 860: 24 27 
+Interval 861: 24 27 
+Interval 862: 24 27 28 
+Interval 863: 24 28 
+Interval 864: 24 25 28 
+Interval 865: 25 28 29 
+Interval 866: 25 29 
+Interval 867: 25 29 
+Interval 868: 25 29 
+Interval 869: 25 29 30 
+Interval 870: 25 30 
+Interval 871: 25 30 
+Interval 872: 25 30 31 
+Interval 873: 25 31 
+Interval 874: 25 31 
+Interval 875: 25 31 32 
+Interval 876: 25 32 
+Interval 877: 25 32 
+Interval 878: 25 32 
+Interval 879: 25 32 33 
+Interval 880: 25 33 
+Interval 881: 25 33 
+Interval 882: 25 33 34 
+Interval 883: 25 26 34 
+Interval 884: 26 
+Interval 885: 26 
+Interval 886: 26 
+Interval 887: 26 
+Interval 888: 26 27 
+Interval 889: 26 27 
+Interval 890: 26 27 
+Interval 891: 26 27 
+Interval 892: 26 27 28 
+Interval 893: 26 28 
+Interval 894: 26 28 
+Interval 895: 26 28 
+Interval 896: 26 28 
+Interval 897: 26 29 
+Interval 898: 26 27 29 
+Interval 899: 27 29 
+Interval 900: 27 29 
+Interval 901: 27 29 30 
+Interval 902: 27 30 
+Interval 903: 27 30 
+Interval 904: 27 30 
+Interval 905: 27 30 31 
+Interval 906: 27 31 
+Interval 907: 27 31 
+Interval 908: 27 31 
+Interval 909: 27 31 
+Interval 910: 27 31 32 
+Interval 911: 27 32 
+Interval 912: 27 32 
+Interval 913: 27 28 32 
+Interval 914: 28 32 33 
+Interval 915: 28 33 
+Interval 916: 28 33 
+Interval 917: 28 33 
+Interval 918: 28 33 34 
+Interval 919: 28 34 
+Interval 920: 28 34 
+Interval 921: 28 
+Interval 922: 28 29 
+Interval 923: 28 29 
+Interval 924: 28 29 
+Interval 925: 28 29 
+Interval 926: 28 29 
+Interval 927: 28 29 30 
+Interval 928: 29 30 
+Interval 929: 29 30 
+Interval 930: 29 30 
+Interval 931: 29 30 31 
+Interval 932: 29 31 
+Interval 933: 29 31 
+Interval 934: 29 31 
+Interval 935: 29 31 
+Interval 936: 29 31 32 
+Interval 937: 29 32 
+Interval 938: 29 32 
+Interval 939: 29 32 
+Interval 940: 29 32 33 
+Interval 941: 29 30 33 
+Interval 942: 30 33 
+Interval 943: 30 33 
+Interval 944: 30 33 
+Interval 945: 30 33 34 
+Interval 946: 30 34 
+Interval 947: 30 
+Interval 948: 30 
+Interval 949: 30 
+Interval 950: 30 
+Interval 951: 30 31 
+Interval 952: 30 31 
+Interval 953: 30 31 
+Interval 954: 31 
+Interval 955: 31 
+Interval 956: 31 
+Interval 957: 31 
+Interval 958: 31 
+Interval 959: 31 32 
+Interval 960: 31 32 
+Interval 961: 31 32 
+Interval 962: 31 32 
+Interval 963: 31 32 
+Interval 964: 31 32 
+Interval 965: 32 
+Interval 966: 32 
+Interval 967: 32 33 
+Interval 968: 32 33 
+Interval 969: 32 33 
+Interval 970: 32 33 
+Interval 971: 32 33 
+Interval 972: 32 33 
+Interval 973: 32 33 
+Interval 974: 32 33 
+Interval 975: 33 34 
+Interval 976: 33 34 
+Interval 977: 33 34 
+Interval 978: 33 
+Interval 979: 33 
+Interval 980: 33 34 
+Interval 981: 33 34 
+Interval 982: 33 34 
+Interval 983: 33 
+Interval 984: 33 34 
+Interval 985: 33 34 
+Interval 986: 33 34 
+Interval 987: 33 34 
+Interval 988: 34 
+Interval 989: 34 
+Interval 990: 34 
+Interval 991: 34 
+Interval 992: 34 
+Interval 993: 34 
+Interval 994: 34 
+Interval 995: 34 
+Interval 996: 33 34 
+Interval 997: 33 
+Interval 998: 33 
+Interval 999: 33 
+Interval 1000: 33 
+Interval 1001: 33 
+Interval 1002: 33 
+Interval 1003: 33 
+Interval 1004: 33 
+Interval 1005: 33 
+Interval 1006: 33 
+Interval 1007: 33 
+Interval 1008: 33 
+Interval 1009: 33 
+Interval 1010: 33 
+Interval 1011: 33 
+Interval 1012: 33 
+Interval 1013: 33 
+Interval 1014: 33 
+Interval 1015: 33 
+Interval 1016: 33 
+Interval 1017: 33 
+Interval 1018: 33 
+Interval 1019: 33 
+Interval 1020: 33 
+Interval 1021: 33 
+Interval 1022: 33 
+Interval 1023: 33 
+Interval 1024: 33 
+Interval 1025: 33 
+Interval 1026: 33 
+Interval 1027: 33 
+Interval 1028: 33 
+Interval 1029: 33 
+Interval 1030: 33 
+Interval 1031: 33 
+Interval 1032: 30 33 
+Interval 1033: 30 
+Interval 1034: 30 
+Interval 1035: 30 
+Interval 1036: 30 
+Interval 1037: 30 
+Interval 1038: 30 31 
+Interval 1039: 30 31 
+Interval 1040: 31 
+Interval 1041: 31 
+Interval 1042: 31 
+Interval 1043: 31 
+Interval 1044: 31 
+Interval 1045: 31 
+Interval 1046: 31 
+Interval 1047: 31 32 
+Interval 1048: 31 32 
+Interval 1049: 31 32 
+Interval 1050: 32 
+Interval 1051: 32 
+Interval 1052: 32 
+Interval 1053: 32 
+Interval 1054: 32 
+Interval 1055: 32 
+Interval 1056: 32 
+Interval 1057: 32 33 
+Interval 1058: 32 33 
+Interval 1059: 32 33 
+Interval 1060: 32 33 
+Interval 1061: 33 
+Interval 1062: 33 
+Interval 1063: 33 
+Interval 1064: 33 
+Interval 1065: 33 
+Interval 1066: 33 
+Interval 1067: 33 
+Interval 1068: 33 
+Interval 1069: 33 
+Interval 1070: 32 33 
+Interval 1071: 32 33 
+Interval 1072: 32 33 
+Interval 1073: 32 33 
+Interval 1074: 32 33 
+Interval 1075: 30 32 
+Interval 1076: 30 
+Interval 1077: 30 
+Interval 1078: 30 
+Interval 1079: 30 
+Interval 1080: 30 
+Interval 1081: 30 31 
+Interval 1082: 30 31 
+Interval 1083: 31 
+Interval 1084: 31 
+Interval 1085: 31 
+Interval 1086: 31 
+Interval 1087: 31 
+Interval 1088: 31 
+Interval 1089: 31 
+Interval 1090: 31 
+Interval 1091: 31 32 
+Interval 1092: 31 32 
+Interval 1093: 32 
+Interval 1094: 32 
+Interval 1095: 32 
+Interval 1096: 32 
+Interval 1097: 32 
+Interval 1098: 32 
+Interval 1099: 32 
+Interval 1100: 32 
+Interval 1101: 32 
+Interval 1102: 32 
+Interval 1103: 32 
+Interval 1104: 32 
+Interval 1105: 32 
+Interval 1106: 30 32 
+Interval 1107: 30 
+Interval 1108: 30 
+Interval 1109: 30 
+Interval 1110: 30 
+Interval 1111: 30 
+Interval 1112: 30 31 
+Interval 1113: 30 31 
+Interval 1114: 31 
+Interval 1115: 31 
+Interval 1116: 31 
+Interval 1117: 31 
+Interval 1118: 31 
+Interval 1119: 31 
+Interval 1120: 31 
+Interval 1121: 31 
+Interval 1122: 31 32 
+Interval 1123: 31 32 
+Interval 1124: 32 
+Interval 1125: 32 
+Interval 1126: 32 
+Interval 1127: 32 
+Interval 1128: 32 
+Interval 1129: 32 
+Interval 1130: 32 
+Interval 1131: 32 
+Interval 1132: 30 32 
+Interval 1133: 30 
+Interval 1134: 30 
+Interval 1135: 30 
+Interval 1136: 30 
+Interval 1137: 30 31 
+Interval 1138: 30 31 
+Interval 1139: 30 31 
+Interval 1140: 30 31 
+Interval 1141: 31 
+Interval 1142: 31 
+Interval 1143: 31 32 
+Interval 1144: 31 32 
+Interval 1145: 31 32 
+Interval 1146: 31 32 
+Interval 1147: 31 32 
+Interval 1148: 31 32 
+Interval 1149: 31 
+Interval 1150: 31 32 
+Interval 1151: 31 32 
+Interval 1152: 32 
+Interval 1153: 32 
+Interval 1154: 32 
+Interval 1155: 32 
+Interval 1156: 32 
+Interval 1157: 32 
+Interval 1158: 32 
+Interval 1159: 32 
+Interval 1160: 32 
+Interval 1161: 32 
+Interval 1162: 32 
+Interval 1163: 32 
+Interval 1164: 32 
+Interval 1165: 32 
+Interval 1166: 32 
+Interval 1167: 32 
+Interval 1168: 31 32 
+Interval 1169: 31 
+Interval 1170: 31 32 
+Interval 1171: 31 32 
+Interval 1172: 32 
+Interval 1173: 32 
+Interval 1174: 32 
+Interval 1175: 32 
+Interval 1176: 32 
+Interval 1177: 32 
+Interval 1178: 32 
+Interval 1179: 32 
+Interval 1180: 32 
+Interval 1181: 32 
+Interval 1182: 32 
+Interval 1183: 32 
+Interval 1184: 32 
+Interval 1185: 31 32 
+Interval 1186: 31 32 
+Interval 1187: 31 32 
+Interval 1188: 31 
+Interval 1189: 31 
+Interval 1190: 31 32 
+Interval 1191: 32 
+Interval 1192: 32 
+Interval 1193: 31 32 
+Interval 1194: 31 
+Interval 1195: 31 32 
+Interval 1196: 31 32 
+Interval 1197: 32 
+Interval 1198: 32 
+Interval 1199: 32 
+Interval 1200: 32 
+Interval 1201: 32 
+Interval 1202: 32 
+Interval 1203: 32 
+Interval 1204: 32 
+Interval 1205: 32 
+Interval 1206: 32 
+Interval 1207: 32 
+Interval 1208: 31 32 
+Interval 1209: 31 
+Interval 1210: 31 
+Interval 1211: 31 
+Interval 1212: 31 
+Interval 1213: 31 
+Interval 1214: 31 
+Interval 1215: 31 
+Interval 1216: 31 
+Interval 1217: 31 
+Interval 1218: 31 
+Interval 1219: 31 
+Interval 1220: 31 
+Interval 1221: 31 
+Interval 1222: 31 
+Interval 1223: 30 31 
+Interval 1224: 30 
+Interval 1225: 30 
+Interval 1226: 30 
+Interval 1227: 30 31 
+Interval 1228: 30 31 
+Interval 1229: 30 31 
+Interval 1230: 30 31 
+Interval 1231: 30 31 
+Interval 1232: 31 
+Interval 1233: 31 
+Interval 1234: 31 
+Interval 1235: 31 
+Interval 1236: 31 
+Interval 1237: 31 
+Interval 1238: 31 
+Interval 1239: 31 
+Interval 1240: 31 
+Interval 1241: 31 
+Interval 1242: 31 
+Interval 1243: 31 
+Interval 1244: 31 
+Interval 1245: 31 
+Interval 1246: 31 
+Interval 1247: 30 31 
+Interval 1248: 30 31 
+Interval 1249: 30 31 
+Interval 1250: 31 
+Interval 1251: 31 
+Interval 1252: 31 
+Interval 1253: 31 
+Interval 1254: 31 
+Interval 1255: 31 
+Interval 1256: 31 
+Interval 1257: 31 
+Interval 1258: 31 
+Interval 1259: 31 
+Interval 1260: 31 
+Interval 1261: 31 
+Interval 1262: 31 
+Interval 1263: 31 
+Interval 1264: 31 
+Interval 1265: 31 
+Interval 1266: 31 
+Interval 1267: 31 
+Interval 1268: 31 
+Interval 1269: 31 
+Interval 1270: 31 
+Interval 1271: 31 
+Interval 1272: 31 
+Interval 1273: 30 31 
+Interval 1274: 30 31 
+Interval 1275: 30 31 
+Interval 1276: 30 
+Interval 1277: 30 
+Interval 1278: 30 
+Interval 1279: 30 
+Interval 1280: 30 
+Interval 1281: 30 
+Interval 1282: 30 
+Interval 1283: 30 
+Interval 1284: 30 
+Interval 1285: 30 
+Interval 1286: 30 
+Interval 1287: 30 
+Interval 1288: 30 
+Interval 1289: 30 
+Interval 1290: 30 
+Interval 1291: 30 
+Interval 1292: 30 
+Interval 1293: 30 
+Interval 1294: 30 
+Interval 1295: 30 
+Interval 1296: 30 
+Interval 1297: 30 
+Interval 1298: 30 
+Interval 1299: 30 
+Interval 1300: 30 
+Interval 1301: 30 
+Interval 1302: 30 
+Interval 1303: 30 
+Interval 1304: 30 
+Interval 1305: 30 
+Interval 1306: 30 
+Interval 1307: 30 
+Interval 1308: 30 
+Interval 1309: 30 
+Interval 1310: 28 30 
+Interval 1311: 28 
+Interval 1312: 28 29 
+Interval 1313: 28 29 
+Interval 1314: 28 29 
+Interval 1315: 28 29 
+Interval 1316: 28 29 30 
+Interval 1317: 28 30 
+Interval 1318: 28 29 
+Interval 1319: 28 29 
+Interval 1320: 29 
+Interval 1321: 29 
+Interval 1322: 29 
+Interval 1323: 29 30 
+Interval 1324: 29 30 
+Interval 1325: 29 30 
+Interval 1326: 29 
+Interval 1327: 29 
+Interval 1328: 29 
+Interval 1329: 29 
+Interval 1330: 29 30 
+Interval 1331: 30 
+Interval 1332: 30 
+Interval 1333: 30 
+Interval 1334: 29 30 
+Interval 1335: 29 
+Interval 1336: 29 30 
+Interval 1337: 29 30 
+Interval 1338: 29 30 
+Interval 1339: 29 30 
+Interval 1340: 29 
+Interval 1341: 29 30 
+Interval 1342: 29 30 
+Interval 1343: 30 
+Interval 1344: 30 
+Interval 1345: 30 
+Interval 1346: 30 
+Interval 1347: 30 
+Interval 1348: 30 
+Interval 1349: 30 
+Interval 1350: 30 
+Interval 1351: 30 
+Interval 1352: 30 
+Interval 1353: 29 30 
+Interval 1354: 29 
+Interval 1355: 29 
+Interval 1356: 29 30 
+Interval 1357: 29 30 
+Interval 1358: 29 
+Interval 1359: 29 30 
+Interval 1360: 29 30 
+Interval 1361: 29 30 
+Interval 1362: 29 30 
+Interval 1363: 29 30 
+Interval 1364: 29 30 
+Interval 1365: 29 30 
+Interval 1366: 29 30 
+Interval 1367: 29 30 
+Interval 1368: 29 30 
+Interval 1369: 29 
+Interval 1370: 29 
+Interval 1371: 29 
+Interval 1372: 29 
+Interval 1373: 29 
+Interval 1374: 29 
+Interval 1375: 29 
+Interval 1376: 29 
+Interval 1377: 29 
+Interval 1378: 29 
+Interval 1379: 29 
+Interval 1380: 29 
+Interval 1381: 29 
+Interval 1382: 29 
+Interval 1383: 29 
+Interval 1384: 29 
+Interval 1385: 29 
+Interval 1386: 29 
+Interval 1387: 29 
+Interval 1388: 29 
+Interval 1389: 28 29 
+Interval 1390: 28 29 
+Interval 1391: 28 29 
+Interval 1392: 28 29 
+Interval 1393: 29 
+Interval 1394: 29 
+Interval 1395: 29 
+Interval 1396: 29 
+Interval 1397: 29 
+Interval 1398: 29 
+Interval 1399: 29 
+Interval 1400: 29 
+Interval 1401: 29 
+Interval 1402: 29 
+Interval 1403: 29 
+Interval 1404: 29 
+Interval 1405: 29 
+Interval 1406: 29 
+Interval 1407: 29 
+Interval 1408: 29 
+Interval 1409: 29 
+Interval 1410: 29 
+Interval 1411: 29 
+Interval 1412: 29 
+Interval 1413: 29 
+Interval 1414: 29 
+Interval 1415: 29 
+Interval 1416: 29 
+Interval 1417: 28 29 
+Interval 1418: 28 29 
+Interval 1419: 28 
+Interval 1420: 28 
+Interval 1421: 28 
+Interval 1422: 28 
+Interval 1423: 28 
+Interval 1424: 28 
+Interval 1425: 28 
+Interval 1426: 28 
+Interval 1427: 28 
+Interval 1428: 28 
+Interval 1429: 28 
+Interval 1430: 28 
+Interval 1431: 28 
+Interval 1432: 28 
+Interval 1433: 28 
+Interval 1434: 28 
+Interval 1435: 28 
+Interval 1436: 28 
+Interval 1437: 28 
+Interval 1438: 28 
+Interval 1439: 28 
+Interval 1440: 28 
+Interval 1441: 28 
+Interval 1442: 28 
+Interval 1443: 25 26 28 
+Interval 1444: 25 26 
+Interval 1445: 26 
+Interval 1446: 26 27 
+Interval 1447: 26 27 
+Interval 1448: 26 27 
+Interval 1449: 26 27 28 
+Interval 1450: 26 28 
+Interval 1451: 26 
+Interval 1452: 26 
+Interval 1453: 26 
+Interval 1454: 26 27 
+Interval 1455: 26 27 
+Interval 1456: 26 27 
+Interval 1457: 26 27 
+Interval 1458: 26 27 
+Interval 1459: 26 27 
+Interval 1460: 27 28 
+Interval 1461: 27 28 
+Interval 1462: 27 28 
+Interval 1463: 27 28 
+Interval 1464: 27 
+Interval 1465: 27 
+Interval 1466: 27 
+Interval 1467: 27 28 
+Interval 1468: 27 28 
+Interval 1469: 27 28 
+Interval 1470: 27 
+Interval 1471: 27 28 
+Interval 1472: 27 28 
+Interval 1473: 28 
+Interval 1474: 28 
+Interval 1475: 28 
+Interval 1476: 28 
+Interval 1477: 28 
+Interval 1478: 28 
+Interval 1479: 28 
+Interval 1480: 28 
+Interval 1481: 28 
+Interval 1482: 28 
+Interval 1483: 28 
+Interval 1484: 28 
+Interval 1485: 28 
+Interval 1486: 28 
+Interval 1487: 28 
+Interval 1488: 28 
+Interval 1489: 28 
+Interval 1490: 28 
+Interval 1491: 28 
+Interval 1492: 28 
+Interval 1493: 27 28 
+Interval 1494: 27 
+Interval 1495: 27 28 
+Interval 1496: 27 28 
+Interval 1497: 28 
+Interval 1498: 27 28 
+Interval 1499: 27 28 
+Interval 1500: 27 
+Interval 1501: 27 
+Interval 1502: 27 
+Interval 1503: 27 
+Interval 1504: 27 
+Interval 1505: 27 
+Interval 1506: 27 
+Interval 1507: 27 
+Interval 1508: 27 
+Interval 1509: 27 
+Interval 1510: 27 
+Interval 1511: 27 
+Interval 1512: 27 
+Interval 1513: 27 
+Interval 1514: 27 
+Interval 1515: 27 
+Interval 1516: 27 
+Interval 1517: 27 
+Interval 1518: 27 
+Interval 1519: 27 
+Interval 1520: 27 
+Interval 1521: 27 
+Interval 1522: 27 
+Interval 1523: 27 
+Interval 1524: 27 
+Interval 1525: 27 
+Interval 1526: 27 
+Interval 1527: 27 
+Interval 1528: 27 
+Interval 1529: 27 
+Interval 1530: 27 
+Interval 1531: 27 
+Interval 1532: 26 27 
+Interval 1533: 26 
+Interval 1534: 26 27 
+Interval 1535: 26 27 
+Interval 1536: 26 
+Interval 1537: 26 
+Interval 1538: 26 
+Interval 1539: 26 27 
+Interval 1540: 26 27 
+Interval 1541: 26 27 
+Interval 1542: 26 27 
+Interval 1543: 26 27 
+Interval 1544: 27 
+Interval 1545: 27 
+Interval 1546: 27 
+Interval 1547: 27 
+Interval 1548: 27 
+Interval 1549: 27 
+Interval 1550: 26 27 
+Interval 1551: 26 27 
+Interval 1552: 26 27 
+Interval 1553: 27 
+Interval 1554: 27 
+Interval 1555: 27 
+Interval 1556: 26 27 
+Interval 1557: 26 27 
+Interval 1558: 27 
+Interval 1559: 27 
+Interval 1560: 26 27 
+Interval 1561: 26 27 
+Interval 1562: 26 
+Interval 1563: 26 
+Interval 1564: 26 
+Interval 1565: 26 
+Interval 1566: 26 
+Interval 1567: 26 
+Interval 1568: 26 
+Interval 1569: 26 
+Interval 1570: 26 
+Interval 1571: 26 
+Interval 1572: 26 
+Interval 1573: 26 
+Interval 1574: 26 
+Interval 1575: 26 
+Interval 1576: 26 
+Interval 1577: 26 
+Interval 1578: 26 
+Interval 1579: 26 
+Interval 1580: 26 
+Interval 1581: 26 
+Interval 1582: 26 
+Interval 1583: 26 
+Interval 1584: 26 
+Interval 1585: 26 
+Interval 1586: 26 
+Interval 1587: 26 
+Interval 1588: 26 
+Interval 1589: 26 
+Interval 1590: 26 
+Interval 1591: 26 
+Interval 1592: 26 
+Interval 1593: 26 
+Interval 1594: 26 
+Interval 1595: 26 
+Interval 1596: 26 
+Interval 1597: 26 
+Interval 1598: 26 
+Interval 1599: 26 
+Interval 1600: 25 26 
+Interval 1601: 26 
+Interval 1602: 26 
+Interval 1603: 26 
+Interval 1604: 26 
+Interval 1605: 26 
+Interval 1606: 26 
+Interval 1607: 26 
+Interval 1608: 26 
+Interval 1609: 26 
+Interval 1610: 24 25 26 
+Interval 1611: 24 
+Interval 1612: 24 
+Interval 1613: 24 25 
+Interval 1614: 24 25 
+Interval 1615: 24 25 
+Interval 1616: 24 25 
+Interval 1617: 24 
+Interval 1618: 24 
+Interval 1619: 24 
+Interval 1620: 24 25 
+Interval 1621: 24 25 
+Interval 1622: 24 25 
+Interval 1623: 25 
+Interval 1624: 25 
+Interval 1625: 25 
+Interval 1626: 25 
+Interval 1627: 25 
+Interval 1628: 25 
+Interval 1629: 25 
+Interval 1630: 25 
+Interval 1631: 25 
+Interval 1632: 25 
+Interval 1633: 25 
+Interval 1634: 25 
+Interval 1635: 25 
+Interval 1636: 25 
+Interval 1637: 25 
+Interval 1638: 25 
+Interval 1639: 25 
+Interval 1640: 25 
+Interval 1641: 25 
+Interval 1642: 25 
+Interval 1643: 25 
+Interval 1644: 25 
+Interval 1645: 25 
+Interval 1646: 25 
+Interval 1647: 25 
+Interval 1648: 25 
+Interval 1649: 25 
+Interval 1650: 25 
+Interval 1651: 25 
+Interval 1652: 25 
+Interval 1653: 25 
+Interval 1654: 25 
+Interval 1655: 25 
+Interval 1656: 25 
+Interval 1657: 25 
+Interval 1658: 25 
+Interval 1659: 25 
+Interval 1660: 25 
+Interval 1661: 25 
+Interval 1662: 25 
+Interval 1663: 25 
+Interval 1664: 25 
+Interval 1665: 25 
+Interval 1666: 25 
+Interval 1667: 25 
+Interval 1668: 25 
+Interval 1669: 25 
+Interval 1670: 24 25 
+Interval 1671: 24 
+Interval 1672: 24 
+Interval 1673: 24 
+Interval 1674: 24 
+Interval 1675: 24 25 
+Interval 1676: 24 25 
+Interval 1677: 25 
+Interval 1678: 25 
+Interval 1679: 25 
+Interval 1680: 24 25 
+Interval 1681: 24 
+Interval 1682: 24 
+Interval 1683: 24 
+Interval 1684: 24 25 
+Interval 1685: 24 25 
+Interval 1686: 24 
+Interval 1687: 24 25 
+Interval 1688: 25 
+Interval 1689: 25 
+Interval 1690: 25 
+Interval 1691: 24 25 
+Interval 1692: 24 25 
+Interval 1693: 24 25 
+Interval 1694: 24 25 
+Interval 1695: 24 25 
+Interval 1696: 24 
+Interval 1697: 24 
+Interval 1698: 24 
+Interval 1699: 24 
+Interval 1700: 24 
+Interval 1701: 24 
+Interval 1702: 24 
+Interval 1703: 24 
+Interval 1704: 24 
+Interval 1705: 24 
+Interval 1706: 24 
+Interval 1707: 24 
+Interval 1708: 24 
+Interval 1709: 24 
+Interval 1710: 24 
+Interval 1711: 24 
+Interval 1712: 24 
+Interval 1713: 24 
+Interval 1714: 24 
+Interval 1715: 24 
+Interval 1716: 24 
+Interval 1717: 24 
+Interval 1718: 24 
+Interval 1719: 24 
+Interval 1720: 24 
+Interval 1721: 24 
+Interval 1722: 24 
+Interval 1723: 24 
+Interval 1724: 24 
+Interval 1725: 24 
+Interval 1726: 24 
+Interval 1727: 24 
+Interval 1728: 24 
+Interval 1729: 24 
+Interval 1730: 24 
+Interval 1731: 24 
+Interval 1732: 0 24 
+Interval 1733: 0 
+Interval 1734: 0 
+Interval 1735: 0 
+Interval 1736: 0 
+Interval 1737: 0 
+Interval 1738: 0 
+Interval 1739: 0 
+Interval 1740: 0 
+Interval 1741: 0 1 
+Interval 1742: 0 1 
+Interval 1743: 1 
+Interval 1744: 1 
+Interval 1745: 1 
+Interval 1746: 1 
+Interval 1747: 1 
+Interval 1748: 1 
+Interval 1749: 1 
+Interval 1750: 1 2 
+Interval 1751: 1 2 
+Interval 1752: 1 2 
+Interval 1753: 2 
+Interval 1754: 2 
+Interval 1755: 2 
+Interval 1756: 2 
+Interval 1757: 2 
+Interval 1758: 2 
+Interval 1759: 2 3 
+Interval 1760: 2 3 
+Interval 1761: 2 3 
+Interval 1762: 2 3 
+Interval 1763: 2 3 
+Interval 1764: 3 
+Interval 1765: 3 
+Interval 1766: 3 
+Interval 1767: 3 
+Interval 1768: 3 
+Interval 1769: 3 4 
+Interval 1770: 3 4 
+Interval 1771: 3 4 
+Interval 1772: 3 4 
+Interval 1773: 3 4 
+Interval 1774: 4 
+Interval 1775: 4 
+Interval 1776: 4 
+Interval 1777: 4 
+Interval 1778: 4 5 
+Interval 1779: 4 5 
+Interval 1780: 4 5 
+Interval 1781: 4 5 
+Interval 1782: 4 5 
+Interval 1783: 4 5 
+Interval 1784: 5 
+Interval 1785: 5 
+Interval 1786: 5 
+Interval 1787: 5 6 
+Interval 1788: 5 6 
+Interval 1789: 5 6 
+Interval 1790: 5 6 
+Interval 1791: 5 6 
+Interval 1792: 5 6 
+Interval 1793: 5 6 
+Interval 1794: 6 
+Interval 1795: 6 
+Interval 1796: 6 7 
+Interval 1797: 6 7 
+Interval 1798: 6 7 
+Interval 1799: 6 7 
+Interval 1800: 6 7 
+Interval 1801: 6 7 
+Interval 1802: 6 7 
+Interval 1803: 6 7 
+Interval 1804: 7 
+Interval 1805: 7 
+Interval 1806: 7 8 
+Interval 1807: 7 8 
+Interval 1808: 7 8 
+Interval 1809: 7 8 
+Interval 1810: 7 8 
+Interval 1811: 7 8 
+Interval 1812: 7 8 
+Interval 1813: 7 8 
+Interval 1814: 7 8 
+Interval 1815: 8 9 
+Interval 1816: 8 9 
+Interval 1817: 8 9 
+Interval 1818: 8 9 
+Interval 1819: 8 9 
+Interval 1820: 8 9 
+Interval 1821: 8 9 
+Interval 1822: 8 9 
+Interval 1823: 8 9 
+Interval 1824: 8 9 10 
+Interval 1825: 9 10 
+Interval 1826: 9 10 
+Interval 1827: 9 10 
+Interval 1828: 9 10 
+Interval 1829: 9 10 
+Interval 1830: 9 10 
+Interval 1831: 9 10 
+Interval 1832: 9 10 
+Interval 1833: 9 10 11 
+Interval 1834: 9 10 11 
+Interval 1835: 10 11 
+Interval 1836: 10 11 
+Interval 1837: 10 11 
+Interval 1838: 10 11 
+Interval 1839: 10 11 
+Interval 1840: 10 11 
+Interval 1841: 10 11 
+Interval 1842: 10 11 12 
+Interval 1843: 10 12 
+Interval 1844: 10 11 12 
+Interval 1845: 11 12 
+Interval 1846: 11 12 
+Interval 1847: 11 12 
+Interval 1848: 11 12 
+Interval 1849: 11 12 
+Interval 1850: 11 12 
+Interval 1851: 11 12 13 
+Interval 1852: 11 13 
+Interval 1853: 11 13 
+Interval 1854: 11 13 
+Interval 1855: 11 12 13 
+Interval 1856: 12 13 
+Interval 1857: 12 13 
+Interval 1858: 12 13 
+Interval 1859: 12 13 
+Interval 1860: 12 13 
+Interval 1861: 12 13 14 
+Interval 1862: 12 14 
+Interval 1863: 12 14 
+Interval 1864: 12 14 
+Interval 1865: 12 13 14 
+Interval 1866: 13 14 
+Interval 1867: 13 14 
+Interval 1868: 13 14 
+Interval 1869: 13 14 
+Interval 1870: 13 14 15 
+Interval 1871: 13 15 
+Interval 1872: 13 15 
+Interval 1873: 13 15 
+Interval 1874: 13 15 
+Interval 1875: 13 14 15 
+Interval 1876: 14 15 
+Interval 1877: 14 15 
+Interval 1878: 14 15 
+Interval 1879: 14 15 16 
+Interval 1880: 14 16 
+Interval 1881: 14 16 
+Interval 1882: 14 16 
+Interval 1883: 14 16 
+Interval 1884: 14 16 
+Interval 1885: 14 15 16 
+Interval 1886: 15 16 
+Interval 1887: 15 16 
+Interval 1888: 15 16 
+Interval 1889: 15 16 17 
+Interval 1890: 15 17 
+Interval 1891: 15 17 
+Interval 1892: 15 17 
+Interval 1893: 15 17 
+Interval 1894: 15 17 
+Interval 1895: 15 16 17 
+Interval 1896: 16 17 
+Interval 1897: 16 17 
+Interval 1898: 16 17 18 
+Interval 1899: 16 18 
+Interval 1900: 16 18 
+Interval 1901: 16 18 
+Interval 1902: 16 18 
+Interval 1903: 16 18 
+Interval 1904: 16 18 
+Interval 1905: 16 18 
+Interval 1906: 16 17 18 
+Interval 1907: 17 18 19 
+Interval 1908: 17 19 
+Interval 1909: 17 19 
+Interval 1910: 17 19 
+Interval 1911: 17 19 
+Interval 1912: 17 19 
+Interval 1913: 17 19 
+Interval 1914: 17 19 
+Interval 1915: 17 19 
+Interval 1916: 17 18 19 20 
+Interval 1917: 18 20 
+Interval 1918: 18 20 
+Interval 1919: 18 20 
+Interval 1920: 18 20 
+Interval 1921: 18 20 
+Interval 1922: 18 20 
+Interval 1923: 18 20 
+Interval 1924: 18 20 
+Interval 1925: 18 20 21 
+Interval 1926: 18 19 21 
+Interval 1927: 19 21 
+Interval 1928: 19 21 
+Interval 1929: 19 21 
+Interval 1930: 19 21 
+Interval 1931: 19 21 
+Interval 1932: 19 21 
+Interval 1933: 19 21 
+Interval 1934: 19 21 
+Interval 1935: 19 21 22 
+Interval 1936: 19 20 22 
+Interval 1937: 20 22 
+Interval 1938: 20 22 
+Interval 1939: 20 22 
+Interval 1940: 20 22 
+Interval 1941: 20 22 
+Interval 1942: 20 22 
+Interval 1943: 20 22 
+Interval 1944: 20 22 23 
+Interval 1945: 20 23 
+Interval 1946: 20 21 23 
+Interval 1947: 21 23 
+Interval 1948: 21 23 
+Interval 1949: 21 23 
+Interval 1950: 21 23 
+Interval 1951: 21 23 
+Interval 1952: 21 23 
+Interval 1953: 21 23 24 
+Interval 1954: 21 24 
+Interval 1955: 21 
+Interval 1956: 21 22 
+Interval 1957: 21 22 
+Interval 1958: 22 
+Interval 1959: 22 
+Interval 1960: 22 
+Interval 1961: 22 
+Interval 1962: 22 
+Interval 1963: 22 
+Interval 1964: 22 
+Interval 1965: 22 23 
+Interval 1966: 22 23 
+Interval 1967: 22 23 
+Interval 1968: 23 
+Interval 1969: 23 
+Interval 1970: 23 
+Interval 1971: 23 
+Interval 1972: 23 
+Interval 1973: 23 24 
+Interval 1974: 23 24 
+Interval 1975: 23 
+Interval 1976: 23 
+Interval 1977: 23 24 
+Interval 1978: 23 24 
+Interval 1979: 24 
+Interval 1980: 23 24 
+Interval 1981: 23 
+Interval 1982: 23 24 
+Interval 1983: 23 24 
+Interval 1984: 24 
+Interval 1985: 24 
+Interval 1986: 23 24 
+Interval 1987: 23 24 
+Interval 1988: 23 24 
+Interval 1989: 23 
+Interval 1990: 23 
+Interval 1991: 23 
+Interval 1992: 23 
+Interval 1993: 23 
+Interval 1994: 23 
+Interval 1995: 23 
+Interval 1996: 23 
+Interval 1997: 23 
+Interval 1998: 23 
+Interval 1999: 23 
+Interval 2000: 23 
+Interval 2001: 23 
+Interval 2002: 23 
+Interval 2003: 21 23 
+Interval 2004: 21 
+Interval 2005: 21 22 
+Interval 2006: 22 
+Interval 2007: 22 
+Interval 2008: 22 
+Interval 2009: 22 
+Interval 2010: 22 
+Interval 2011: 22 
+Interval 2012: 22 
+Interval 2013: 22 
+Interval 2014: 22 
+Interval 2015: 22 23 
+Interval 2016: 22 23 
+Interval 2017: 23 
+Interval 2018: 23 
+Interval 2019: 23 
+Interval 2020: 23 
+Interval 2021: 23 
+Interval 2022: 23 
+Interval 2023: 23 
+Interval 2024: 23 
+Interval 2025: 23 
+Interval 2026: 23 
+Interval 2027: 21 23 
+Interval 2028: 21 22 
+Interval 2029: 21 22 
+Interval 2030: 21 22 
+Interval 2031: 21 22 23 
+Interval 2032: 22 23 
+Interval 2033: 22 23 
+Interval 2034: 22 
+Interval 2035: 22 
+Interval 2036: 22 
+Interval 2037: 22 
+Interval 2038: 22 
+Interval 2039: 22 
+Interval 2040: 22 23 
+Interval 2041: 22 23 
+Interval 2042: 22 23 
+Interval 2043: 22 23 
+Interval 2044: 23 
+Interval 2045: 23 
+Interval 2046: 23 
+Interval 2047: 23 
+Interval 2048: 23 
+Interval 2049: 23 
+Interval 2050: 23 
+Interval 2051: 23 
+Interval 2052: 23 
+Interval 2053: 23 
+Interval 2054: 23 
+Interval 2055: 23 
+Interval 2056: 23 
+Interval 2057: 23 
+Interval 2058: 23 
+Interval 2059: 23 
+Interval 2060: 23 
+Interval 2061: 23 
+Interval 2062: 23 
+Interval 2063: 23 
+Interval 2064: 23 
+Interval 2065: 23 
+Interval 2066: 23 
+Interval 2067: 22 23 
+Interval 2068: 22 
+Interval 2069: 22 
+Interval 2070: 22 
+Interval 2071: 22 
+Interval 2072: 22 
+Interval 2073: 22 
+Interval 2074: 22 
+Interval 2075: 22 
+Interval 2076: 22 23 
+Interval 2077: 22 23 
+Interval 2078: 22 
+Interval 2079: 22 
+Interval 2080: 22 
+Interval 2081: 22 
+Interval 2082: 22 
+Interval 2083: 22 
+Interval 2084: 22 
+Interval 2085: 22 
+Interval 2086: 22 
+Interval 2087: 22 
+Interval 2088: 22 
+Interval 2089: 22 
+Interval 2090: 22 
+Interval 2091: 22 
+Interval 2092: 22 
+Interval 2093: 22 
+Interval 2094: 22 
+Interval 2095: 22 
+Interval 2096: 22 
+Interval 2097: 22 
+Interval 2098: 22 
+Interval 2099: 22 
+Interval 2100: 22 
+Interval 2101: 22 
+Interval 2102: 22 
+Interval 2103: 22 
+Interval 2104: 22 
+Interval 2105: 22 
+Interval 2106: 22 
+Interval 2107: 22 
+Interval 2108: 22 
+Interval 2109: 22 
+Interval 2110: 22 
+Interval 2111: 22 
+Interval 2112: 22 
+Interval 2113: 22 
+Interval 2114: 22 
+Interval 2115: 22 
+Interval 2116: 22 
+Interval 2117: 22 
+Interval 2118: 22 
+Interval 2119: 22 
+Interval 2120: 22 
+Interval 2121: 22 
+Interval 2122: 22 
+Interval 2123: 22 
+Interval 2124: 22 
+Interval 2125: 22 
+Interval 2126: 22 
+Interval 2127: 22 
+Interval 2128: 22 
+Interval 2129: 22 
+Interval 2130: 22 
+Interval 2131: 22 
+Interval 2132: 22 
+Interval 2133: 22 
+Interval 2134: 22 
+Interval 2135: 22 
+Interval 2136: 22 
+Interval 2137: 22 
+Interval 2138: 22 
+Interval 2139: 22 
+Interval 2140: 22 
+Interval 2141: 22 
+Interval 2142: 21 22 
+Interval 2143: 21 22 
+Interval 2144: 21 22 
+Interval 2145: 21 22 
+Interval 2146: 21 22 
+Interval 2147: 21 22 
+Interval 2148: 21 22 
+Interval 2149: 21 
+Interval 2150: 21 
+Interval 2151: 21 
+Interval 2152: 21 
+Interval 2153: 21 
+Interval 2154: 21 
+Interval 2155: 0 21 
+Interval 2156: 0 
+Interval 2157: 0 1 
+Interval 2158: 0 1 
+Interval 2159: 0 2 
+Interval 2160: 0 2 
+Interval 2161: 0 2 
+Interval 2162: 0 3 
+Interval 2163: 0 3 4 
+Interval 2164: 0 4 
+Interval 2165: 0 4 
+Interval 2166: 0 5 
+Interval 2167: 0 5 6 
+Interval 2168: 0 6 
+Interval 2169: 0 6 
+

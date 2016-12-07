@@ -1,0 +1,269 @@
+Interval 1: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Interval 2: 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 
+Interval 3: 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 
+Interval 4: 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+Interval 5: 0 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 
+Interval 6: 0 1 2 3 4 5 
+Interval 7: 3 4 5 6 7 8 9 
+Interval 8: 6 7 8 9 10 11 12 13 14 
+Interval 9: 8 9 10 11 14 15 16 17 18 
+Interval 10: 11 12 13 14 18 19 20 21 22 23 
+Interval 11: 14 15 16 17 23 24 25 26 27 28 
+Interval 12: 17 18 19 20 28 29 30 31 32 
+Interval 13: 20 21 22 23 32 33 34 35 36 37 
+Interval 14: 23 24 25 37 38 39 40 41 
+Interval 15: 25 26 27 28 41 42 43 44 45 46 
+Interval 16: 28 29 30 31 46 47 48 49 50 51 
+Interval 17: 31 32 33 34 51 52 53 54 55 
+Interval 18: 34 35 36 37 55 56 57 58 59 60 
+Interval 19: 37 38 39 40 60 61 62 63 64 
+Interval 20: 40 41 42 43 64 65 66 67 68 69 
+Interval 21: 43 44 45 69 70 71 72 73 74 
+Interval 22: 45 46 47 48 74 75 76 77 78 
+Interval 23: 48 49 50 51 52 53 
+Interval 24: 51 52 53 54 55 56 57 
+Interval 25: 54 55 56 57 58 59 60 61 
+Interval 26: 57 58 59 60 61 62 63 64 65 66 
+Interval 27: 60 61 62 63 66 67 68 69 70 
+Interval 28: 63 64 65 66 70 71 72 73 74 
+Interval 29: 66 67 68 69 70 74 75 76 77 78 
+Interval 30: 69 70 71 72 73 74 75 76 
+Interval 31: 71 72 73 74 75 76 77 78 
+Interval 32: 73 74 75 76 77 78 
+Interval 33: 75 76 77 78 
+Interval 34: 75 76 77 
+Interval 35: 76 77 
+Interval 36: 75 76 
+Interval 37: 75 76 
+Interval 38: 75 
+Interval 39: 72 73 74 75 
+Interval 40: 72 73 74 75 
+Interval 41: 73 74 75 
+Interval 42: 72 73 74 
+Interval 43: 72 73 
+Interval 44: 72 73 
+Interval 45: 68 69 70 72 
+Interval 46: 68 69 70 71 72 
+Interval 47: 68 69 70 71 
+Interval 48: 70 71 
+Interval 49: 68 70 71 
+Interval 50: 68 69 70 
+Interval 51: 68 69 70 
+Interval 52: 68 69 70 
+Interval 53: 48 68 69 
+Interval 54: 48 49 50 51 52 53 54 55 56 57 
+Interval 55: 50 51 57 58 59 60 61 62 63 64 65 66 
+Interval 56: 51 52 53 54 55 56 57 66 67 68 
+Interval 57: 53 54 55 58 59 60 61 62 63 64 65 
+Interval 58: 55 56 57 58 59 60 65 66 67 68 
+Interval 59: 58 59 60 61 62 63 64 65 66 67 
+Interval 60: 60 61 62 63 64 67 68 
+Interval 61: 63 64 65 66 67 68 
+Interval 62: 66 67 68 
+Interval 63: 67 68 
+Interval 64: 66 67 
+Interval 65: 60 61 62 66 
+Interval 66: 62 63 64 65 
+Interval 67: 65 66 
+Interval 68: 60 61 62 63 65 66 
+Interval 69: 63 64 65 
+Interval 70: 60 61 62 63 65 
+Interval 71: 60 61 63 64 65 
+Interval 72: 61 62 63 64 65 
+Interval 73: 63 64 65 
+Interval 74: 63 64 
+Interval 75: 63 64 
+Interval 76: 63 64 
+Interval 77: 60 61 62 63 
+Interval 78: 61 62 63 
+Interval 79: 61 62 
+Interval 80: 60 61 62 
+Interval 81: 60 61 
+Interval 82: 56 57 58 60 61 
+Interval 83: 57 58 59 60 
+Interval 84: 58 59 60 
+Interval 85: 59 60 
+Interval 86: 59 60 
+Interval 87: 57 58 59 
+Interval 88: 58 
+Interval 89: 56 57 58 
+Interval 90: 56 57 
+Interval 91: 51 52 53 54 55 56 57 
+Interval 92: 53 54 55 56 
+Interval 93: 56 
+Interval 94: 55 56 
+Interval 95: 54 55 
+Interval 96: 52 53 54 55 
+Interval 97: 52 53 54 
+Interval 98: 52 53 54 
+Interval 99: 52 53 
+Interval 100: 51 52 53 
+Interval 101: 48 49 50 51 52 
+Interval 102: 48 49 50 51 
+Interval 103: 50 51 
+Interval 104: 50 51 
+Interval 105: 48 49 50 
+Interval 106: 48 49 50 
+Interval 107: 48 49 
+Interval 108: 48 49 
+Interval 109: 0 1 2 48 
+Interval 110: 2 3 4 5 6 
+Interval 111: 5 6 7 8 9 
+Interval 112: 8 9 10 11 12 13 
+Interval 113: 11 12 13 14 15 16 
+Interval 114: 14 15 16 17 18 19 20 
+Interval 115: 18 19 20 21 22 23 
+Interval 116: 21 22 23 24 25 26 27 
+Interval 117: 24 25 26 27 28 29 30 
+Interval 118: 27 28 29 30 31 32 33 
+Interval 119: 30 31 32 33 34 35 36 37 
+Interval 120: 33 34 35 36 37 38 39 40 
+Interval 121: 36 37 38 39 40 41 42 43 44 
+Interval 122: 40 41 42 43 44 45 46 47 
+Interval 123: 43 44 45 46 47 48 
+Interval 124: 46 47 48 
+Interval 125: 47 48 
+Interval 126: 43 44 45 46 47 
+Interval 127: 43 44 45 46 47 
+Interval 128: 44 45 46 47 
+Interval 129: 46 47 
+Interval 130: 44 45 46 
+Interval 131: 44 45 
+Interval 132: 44 45 
+Interval 133: 44 45 
+Interval 134: 43 44 
+Interval 135: 0 1 2 3 4 43 44 
+Interval 136: 0 5 6 7 8 9 10 11 12 13 15 16 17 18 19 20 
+Interval 137: 0 21 22 23 24 25 27 28 29 30 32 33 34 35 
+Interval 138: 0 1 2 36 37 38 39 42 43 
+Interval 139: 1 2 3 4 5 6 7 
+Interval 140: 4 5 6 7 8 9 10 11 12 
+Interval 141: 7 8 9 10 12 13 14 15 16 17 
+Interval 142: 10 11 12 17 18 19 20 21 22 
+Interval 143: 12 13 14 15 22 23 24 25 26 27 
+Interval 144: 15 16 17 18 27 28 29 30 31 32 33 
+Interval 145: 18 19 20 21 33 34 35 36 37 38 
+Interval 146: 21 22 23 38 39 40 41 42 43 
+Interval 147: 23 24 25 26 27 28 43 
+Interval 148: 26 27 28 29 30 31 32 
+Interval 149: 29 30 31 32 33 34 35 36 
+Interval 150: 32 33 34 35 36 37 38 39 40 41 
+Interval 151: 35 36 37 38 39 41 42 43 
+Interval 152: 38 39 40 41 42 43 
+Interval 153: 40 41 42 43 
+Interval 154: 41 42 43 
+Interval 155: 41 42 43 
+Interval 156: 42 
+Interval 157: 39 40 41 42 
+Interval 158: 39 40 41 
+Interval 159: 40 41 
+Interval 160: 39 40 
+Interval 161: 37 38 39 40 
+Interval 162: 37 38 39 
+Interval 163: 37 38 39 
+Interval 164: 37 38 
+Interval 165: 37 38 
+Interval 166: 24 25 37 
+Interval 167: 24 25 26 27 28 29 
+Interval 168: 27 28 29 30 31 32 33 
+Interval 169: 30 31 32 33 34 35 36 37 
+Interval 170: 33 34 35 36 37 
+Interval 171: 34 35 36 37 
+Interval 172: 35 36 37 
+Interval 173: 35 36 
+Interval 174: 35 36 
+Interval 175: 34 35 
+Interval 176: 33 34 
+Interval 177: 24 25 33 34 
+Interval 178: 25 26 27 28 29 
+Interval 179: 28 29 30 31 32 
+Interval 180: 31 32 33 
+Interval 181: 24 25 26 33 
+Interval 182: 25 26 27 28 29 30 
+Interval 183: 28 29 30 31 32 33 
+Interval 184: 31 32 33 
+Interval 185: 31 32 
+Interval 186: 31 32 
+Interval 187: 24 25 26 27 28 31 
+Interval 188: 26 27 28 29 30 31 
+Interval 189: 28 29 30 31 
+Interval 190: 29 30 31 
+Interval 191: 30 31 
+Interval 192: 29 30 
+Interval 193: 28 29 
+Interval 194: 28 29 
+Interval 195: 28 29 
+Interval 196: 24 25 26 27 28 
+Interval 197: 25 26 27 28 
+Interval 198: 24 25 26 27 28 
+Interval 199: 25 26 27 
+Interval 200: 26 27 
+Interval 201: 25 26 27 
+Interval 202: 25 26 
+Interval 203: 24 25 26 
+Interval 204: 24 25 
+Interval 205: 24 
+Interval 206: 0 1 2 3 4 5 6 7 24 
+Interval 207: 1 2 3 7 8 9 10 11 12 13 14 15 16 17 
+Interval 208: 3 4 5 17 18 19 20 21 22 23 
+Interval 209: 5 6 7 8 9 10 
+Interval 210: 7 8 9 10 11 12 13 14 15 
+Interval 211: 10 11 12 13 15 16 17 18 19 20 
+Interval 212: 13 14 15 16 17 20 21 22 23 
+Interval 213: 16 17 18 19 20 21 22 
+Interval 214: 18 19 20 21 22 23 
+Interval 215: 21 22 23 
+Interval 216: 20 21 22 23 
+Interval 217: 21 22 23 
+Interval 218: 20 21 22 23 
+Interval 219: 21 22 
+Interval 220: 21 
+Interval 221: 19 20 21 
+Interval 222: 19 20 
+Interval 223: 19 20 
+Interval 224: 15 16 17 18 19 
+Interval 225: 17 18 19 
+Interval 226: 18 19 
+Interval 227: 17 18 
+Interval 228: 16 17 18 
+Interval 229: 16 17 
+Interval 230: 16 
+Interval 231: 15 16 
+Interval 232: 3 4 5 6 7 15 
+Interval 233: 6 7 8 9 10 11 
+Interval 234: 9 10 11 12 13 14 15 
+Interval 235: 12 13 14 15 
+Interval 236: 14 15 
+Interval 237: 12 13 14 
+Interval 238: 12 13 14 
+Interval 239: 12 13 
+Interval 240: 12 13 
+Interval 241: 3 4 5 6 12 
+Interval 242: 5 6 7 8 9 10 
+Interval 243: 8 9 10 11 12 
+Interval 244: 11 12 
+Interval 245: 10 11 
+Interval 246: 9 10 11 
+Interval 247: 9 10 
+Interval 248: 3 4 5 6 9 10 
+Interval 249: 5 6 7 8 9 
+Interval 250: 7 8 9 
+Interval 251: 8 9 
+Interval 252: 8 9 
+Interval 253: 7 8 
+Interval 254: 3 4 5 6 7 8 
+Interval 255: 5 6 7 
+Interval 256: 6 7 
+Interval 257: 5 6 7 
+Interval 258: 5 6 
+Interval 259: 4 5 
+Interval 260: 3 4 5 
+Interval 261: 0 1 2 3 4 
+Interval 262: 0 1 2 3 
+Interval 263: 2 3 
+Interval 264: 0 1 2 3 
+Interval 265: 0 1 2 
+Interval 266: 1 2 
+Interval 267: 1 2 
+Interval 268: 0 1 
+Interval 269: 0 
